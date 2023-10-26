@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resume Parsing</title>
+    <style>
+        body {
+            font-family: 'Graphik', sans-serif;
+            background-color: #111;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        h1 {
+            margin-top: 3%;
+            font-size: 36px;
+        }
+
+        form {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input[type="file"] {
+            display: block;
+            margin: 0 auto;
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            border: none;
+        }
+
+        input[type="submit"] {
+            display: block;
+            margin: 20px auto;
+            background-color: #0088cc;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+
+        h2 {
+            font-size: 24px;
+        }
+
+        footer {
+            background-color: #333;
+            padding: 10px;
+            margin-top: auto;
+        }
+
+        p {
+            font-size: 16px;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Resume Parsing</h1>
+
+    <form method="POST" action="/" enctype="multipart/form-data">
+        <label for="resume_file">Upload your resume:</label>
+        <input type="file" name="resume_file">
+        <br>
+        <input type="submit" value="Parse Resume">
+    </form>
+
+    {% if parsed_data %}
+    <h2>Parsed Resume Information:</h2>
+    <ul>
+        <li><strong>Name:</strong> {{ parsed_data['Name'] }}</li>
+        <li><strong>Email:</strong> {{ parsed_data['Email'] }}</li>
+        <li><strong>Phone:</strong> {{ parsed_data['Phone'] }}</li>
+        <li><strong>Skills:</strong> {{ ', '.join(parsed_data['Skills']) }}</li>
+        <li><strong>Experience:</strong> {{ parsed_data['Experience'] }}</li>
+        <li><strong>Education:</strong> {{ parsed_data['Education'] }}</li>
+    </ul>
+    {% endif %}
+    
+    <footer>
+        <p>Developed by Deep, Dev, Darsh, Dravya | <a href="https://github.com/Deep4GB/Resume-NLP-Parser" style="color: #fff; text-decoration: none;">GitHub</a></p>
+    </footer>
+</body>
+</html>
