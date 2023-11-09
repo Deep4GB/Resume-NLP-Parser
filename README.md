@@ -22,7 +22,7 @@ The project is built using the following technologies and tools:
 
 - **NLP Libraries**: NLP libraries and tools like NLTK (Natural Language Toolkit) and spaCy are employed for text analysis.
 
-- **Web Interface**: A web-based user interface is developed using technologies like HTML, CSS, and JavaScript to interact with the tool.
+- **Web Interface**: A web-based user interface is developed using streamlit.
 
 - **Data Visualization**: Libraries like Matplotlib and Plotly are used for creating data visualizations.
 
@@ -34,9 +34,9 @@ To run the Resume NLP Parser:
 
 2. Set up the necessary Python environment with required libraries. You can use `pip` to install the required dependencies listed in `requirements.txt`.
 
-3. Start the web-based user interface by running the provided Python script.
+ 3. streamlit run app.py in terminal
 
-4. Upload resumes or input text data for analysis.
+4. Upload resumes
 
 5. Use the provided search and filtering functionalities to explore the parsed data.
 
