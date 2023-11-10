@@ -2,29 +2,29 @@
 
 ## Overview
 
-The Resume NLP Parser is a project that utilizes Natural Language Processing (NLP) techniques to extract and analyze information from resumes. This tool aims to simplify the process of reviewing job applicants' resumes, extracting relevant data, and making data-driven decisions in recruitment.
+The **Resume NLP Parser** is a project that leverages Natural Language Processing (NLP) techniques to extract and analyze information from resumes. This tool streamlines the process of reviewing job applicants' resumes, extracting relevant data, and enabling data-driven decisions in recruitment.
 
 ## Key Features
 
-- **Resume Parsing**: The application parses resumes in various formats, such as PDF, Word documents, or plain text, extracting details like name, contact information, skills, work experience, and education.
+- **Resume Parsing**: Parses resumes in various formats (PDF, Word documents, or plain text), extracting details such as name, contact information, skills, work experience, and education.
 
-- **NLP Analysis**: Natural Language Processing techniques are used to analyze the text within resumes, identifying keywords, phrases, and patterns to assess a candidate's qualifications.
+- **NLP Analysis**: Utilizes Natural Language Processing techniques to analyze the text within resumes, identifying keywords, phrases, and patterns to assess a candidate's qualifications.
 
-- **Data Visualization**: The parsed data is presented through interactive and informative data visualizations, making it easier for recruiters to evaluate applicants.
+- **Data Visualization**: Presents parsed data through interactive and informative visualizations, facilitating recruiters in evaluating applicants.
 
-- **Search and Filtering**: The tool provides search and filtering capabilities, allowing recruiters to find specific candidate information quickly.
+- **Search and Filtering**: Provides search and filtering capabilities, enabling recruiters to quickly find specific candidate information.
 
 ## Technologies Used
 
-The project is built using the following technologies and tools:
+The project is developed using the following technologies and tools:
 
 - **Python**: The core programming language used for NLP and data analysis.
 
-- **NLP Libraries**: NLP libraries and tools like NLTK (Natural Language Toolkit) and spaCy are employed for text analysis.
+- **NLP Libraries**: Utilizes NLP libraries and tools like NLTK (Natural Language Toolkit) and spaCy for text analysis.
 
-- **Web Interface**: A web-based user interface is developed using streamlit.
+- **Web Interface**: Features a web-based user interface developed using Streamlit.
 
-- **Data Visualization**: Libraries like Matplotlib and Plotly are used for creating data visualizations.
+- **Data Visualization**: Utilizes libraries such as Matplotlib and Plotly for creating visualizations.
 
 ## How to Run the Application
 
@@ -32,13 +32,16 @@ To run the Resume NLP Parser:
 
 1. Clone this repository to your local machine.
 
-2. Set up the necessary Python environment with required libraries. You can use `pip` to install the required dependencies listed in `requirements.txt`.
+2. Set up the necessary Python environment with required libraries. Install the required dependencies listed in `requirements.txt` using `pip`.
 
- 3. streamlit run app.py in terminal
+3. Run the following command in the terminal:
+    ```bash
+    streamlit run app.py
+    ```
 
-4. Upload resumes
+4. Upload resumes.
 
-5. Use the provided search and filtering functionalities to explore the parsed data.
+5. Utilize the provided search and filtering functionalities to explore the parsed data.
 
 ## Future Enhancements
 
@@ -52,8 +55,7 @@ Future enhancements for this project may include:
 
 ## Contributors
 
-- Darsh Patel: 
-- Dev Patel:
-- Deep Patel: https://github.com/Deep4GB
-- Dravya Patel:
-
+- **Darsh Patel**
+- **Dev Patel**
+- **Deep Patel**: [GitHub Profile](https://github.com/Deep4GB)
+- **Dravya Patel**

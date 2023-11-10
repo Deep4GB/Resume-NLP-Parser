@@ -6,11 +6,16 @@ import csv
 import fitz  # PyMuPDF library for PDF parsing
 import base64
 import random
+import pandas as pd
 
+# Additional libraries
 nltk.download('punkt')
 
 # Load the spaCy model for English
 nlp = spacy.load('en_core_web_sm')
+
+# Feedback DataFrame
+feedback_data = pd.DataFrame(columns=['User Name', 'Feedback', 'Timestamp'])
 
 def load_keywords(file_path):
     with open(file_path, 'r') as file:
@@ -78,7 +83,6 @@ def calculate_resume_score(resume_info):
         score += 25
     return score
 
-
 def extract_resume_info(text):
     first_lines = '\n'.join(text.splitlines()[:10])
     first_name, last_name = extract_name(first_lines)
@@ -112,41 +116,93 @@ def show_pdf(uploaded_file):
     pdf_display = F'<iframe src="data:application/pdf;base64,{base64_pdf}" width="700" height="1000" type="application/pdf"></iframe>'
     st.markdown(pdf_display, unsafe_allow_html=True)
 
+def authenticate_admin(username, password):
+    # Hardcoded username and password for demonstration purposes
+    hardcoded_username = "deep"
+    hardcoded_password = "dp10"
+
+    return username == hardcoded_username and password == hardcoded_password
+
+
 def main():
-    st.title("Resume Parser using NLP")
+    st.set_page_config(page_title="Resume Parser", page_icon="✅")
 
-    uploaded_file = st.file_uploader("Upload a PDF resume", type="pdf")
-    if uploaded_file:
-        st.write("File uploaded successfully!")
-
-        # Extract text from the uploaded PDF
-        pdf_text = extract_resume_info_from_pdf(uploaded_file)
-
-        # Extract information from the text
-        resume_info = extract_resume_info(pdf_text)
-
-        # Display the extracted information
-        st.header("Extracted Information:")
-        st.write(f"First Name: {resume_info['first_name']}")
-        st.write(f"Last Name: {resume_info['last_name']}")
-        st.write(f"Email: {resume_info['email']}")
-        st.write(f"Degree/Major: {resume_info['degree_major']}")
-        st.header("Skills:")
-        show_colored_skills(resume_info['skills'])
-
-        # Calculate and display the resume score
-        resume_score = calculate_resume_score(resume_info)
-        st.header("Resume Score:")
-        st.progress(resume_score)
+    # Sidebar
+    st.sidebar.title("Navigation")
+    app_mode = st.sidebar.selectbox("Choose an option", ["Users", "Recruiters", "Admin", "Feedback"])
 
 
-        st.header("Suggested Skills for the Desired Job:")
-                # Get user input for the desired job
-        desired_job = st.text_input("Enter the job you are looking for:")
+    if app_mode == "Users":
+        st.title("Resume Parser using NLP")
+        uploaded_file = st.file_uploader("Upload a PDF resume", type="pdf")
+        if uploaded_file:
+            st.write("File uploaded successfully!")
 
-        # Suggest skills based on the desired job
-        suggested_skills = suggest_skills_for_job(desired_job)
-        st.write(suggested_skills)
+            # Extract text from the uploaded PDF
+            pdf_text = extract_resume_info_from_pdf(uploaded_file)
+
+            # Extract information from the text
+            resume_info = extract_resume_info(pdf_text)
+
+            # Display the extracted information
+            st.header("Extracted Information:")
+            st.write(f"First Name: {resume_info['first_name']}")
+            st.write(f"Last Name: {resume_info['last_name']}")
+            st.write(f"Email: {resume_info['email']}")
+            st.write(f"Degree/Major: {resume_info['degree_major']}")
+            st.header("Skills:")
+            show_colored_skills(resume_info['skills'])
+
+            # Calculate and display the resume score
+            resume_score = calculate_resume_score(resume_info)
+            st.header("Resume Score:")
+            st.progress(resume_score)
+
+            st.header("Suggested Skills for the Desired Job:")
+            # Get user input for the desired job
+            desired_job = st.text_input("Enter the job you are looking for:")
+
+            # Suggest skills based on the desired job
+            suggested_skills = suggest_skills_for_job(desired_job)
+            st.write(suggested_skills)
+
+
+    elif app_mode == "Recruiters":
+        st.title("Recruiter's Panel")
+        st.warning("Still under development!!")
+
+
+    elif app_mode == "Admin":
+        st.title("Admin Panel")
+        st.subheader("Authentication Required")
+
+        # Admin authentication
+        username = st.text_input("Username:")
+        password = st.text_input("Password:", type="password")
+        if st.button("Login"):
+            if authenticate_admin('deep', 'dp10'):
+                st.success("Authentication successful!")
+
+                # Admin functionalities go here
+
+                # Display feedback data
+                st.subheader("Feedback Data")
+                st.write(feedback_data)
+            else:
+                st.error("Authentication failed. Please try again.")
+
+
+    elif app_mode == "Feedback":
+        st.title("Feedback Section")
+        st.subheader("Provide Feedback")
+
+        # Feedback Form
+        user_name = st.text_input("Your Name:")
+        feedback = st.text_area("Provide feedback on the resume parser:", height=100)
+        if st.button("Submit Feedback"):
+            feedback_data.loc[len(feedback_data)] = [user_name, feedback, pd.to_datetime("now")]
+            st.success("Feedback submitted successfully!")
+
 
 if __name__ == "__main__":
     main()
