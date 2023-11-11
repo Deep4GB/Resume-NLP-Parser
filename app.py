@@ -44,7 +44,7 @@ def extract_email(resume_text):
     return ""
 
 def extract_skills(resume_text):
-    skills_keywords = load_keywords('data/skills.csv')
+    skills_keywords = load_keywords('data/newSkills.csv')
     skills = set()
     for keyword in skills_keywords:
         if keyword.lower() in resume_text.lower():
@@ -57,6 +57,53 @@ def extract_major(resume_text):
         if keyword.lower() in resume_text.lower():
             return keyword
     return ""
+
+def extract_experience(resume_text):
+    nlp = spacy.load('en_core_web_sm')
+
+    # Process the resume text using spaCy
+    doc = nlp(resume_text)
+
+    # Extract verbs (action words) from the resume
+    verbs = [token.text for token in doc if token.pos_ == 'VERB']
+
+    # Analyze the extracted verbs to determine the level of experience
+    if any(keyword in verbs for keyword in ['lead', 'manage', 'direct']):
+        level_of_experience = "Senior"
+    elif any(keyword in verbs for keyword in ['develop', 'design', 'analyze']):
+        level_of_experience = "Mid-Senior"
+    elif any(keyword in verbs for keyword in ['assist', 'support', 'collaborate']):
+        level_of_experience = "Mid-Junior"
+    else:
+        level_of_experience = "Entry Level"
+
+    # Suggest a position based on the observed verbs
+    suggested_position = suggest_position(verbs)
+
+    return {
+        'level_of_experience': level_of_experience,
+        'suggested_position': suggested_position
+    }
+
+def load_positions_keywords(file_path):
+    positions_keywords = {}
+    with open(file_path, 'r') as file:
+        reader = csv.DictReader(file)
+        for row in reader:
+            position = row['position']
+            keywords = [keyword.lower() for keyword in row['keywords'].split(',')]
+            positions_keywords[position] = keywords
+    return positions_keywords
+
+
+def suggest_position(verbs):
+    positions_keywords = load_positions_keywords('data/position.csv')
+    verbs = [verb.lower() for verb in verbs]
+    for position, keywords in positions_keywords.items():
+        if any(keyword in verbs for keyword in keywords):
+            return position
+
+    return "Position Not Identified"
 
 def extract_resume_info_from_pdf(uploaded_file):
     doc = fitz.open(stream=uploaded_file.read(), filetype="pdf")
@@ -89,7 +136,9 @@ def extract_resume_info(text):
     email = extract_email(text)
     skills = extract_skills(text)
     degree_major = extract_major(text)
-    return {'first_name': first_name, 'last_name': last_name, 'email': email, 'degree_major': degree_major, 'skills': skills}
+    experience = extract_experience(text)
+
+    return {'first_name': first_name, 'last_name': last_name, 'email': email, 'degree_major': degree_major, 'skills': skills, 'experience': experience}
 
 def suggest_skills_for_job(desired_job):
     job_skills_mapping = {
@@ -152,6 +201,12 @@ def main():
             st.write(f"Degree/Major: {resume_info['degree_major']}")
             st.header("Skills:")
             show_colored_skills(resume_info['skills'])
+            st.header("Experience:")
+            # Extract and display experience information
+            experience_info = extract_experience(pdf_text)
+            st.write(f"Level of Experience: {experience_info['level_of_experience']}")
+            st.write(f"Suggested Position: {experience_info['suggested_position']}")
+
 
             # Calculate and display the resume score
             resume_score = calculate_resume_score(resume_info)
