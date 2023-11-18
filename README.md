@@ -36,7 +36,7 @@ To run the Resume NLP Parser:
 
 3. Run the following command in the terminal:
     ```bash
-    streamlit run app.py
+    streamlit run main.py
     ```
 
 4. Upload resumes.
