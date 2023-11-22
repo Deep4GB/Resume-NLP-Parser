@@ -5,6 +5,7 @@ altair==5.1.2
 annotated-types==0.6.0
 appdirs==1.4.4
 appnope==0.1.3
+asgiref==3.7.2
 astmonkey==0.3.6
 asttokens==2.4.1
 astunparse==1.6.3
@@ -34,9 +35,9 @@ cymem==2.0.8
 Cython==0.29.36
 debugpy==1.8.0
 decorator==5.1.1
+Django==4.2.7
 docopt==0.6.2
 docx2txt==0.8
-en-core-web-lg @ https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-3.7.0/en_core_web_lg-3.7.0-py3-none-any.whl#sha256=708da1110fbe1163d059de34a2cbedb1db65c26e1e624ca925897a2711cb7d77
 en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.0/en_core_web_sm-3.7.0-py3-none-any.whl#sha256=6215d71a3212690e9aec49408a27e3fe6ad7cd6c715476e93d70dc784041e93e
 execnet==2.0.2
 executing==2.0.1
@@ -113,6 +114,7 @@ plac==1.1.3
 platformdirs==3.11.0
 plotly==5.18.0
 pluggy==1.3.0
+plyer==2.1.0
 preshed==3.0.9
 prompt-toolkit==3.0.39
 protobuf==4.25.0
@@ -168,6 +170,7 @@ spacy==3.7.2
 spacy-legacy==3.0.12
 spacy-loggers==1.0.5
 spacy-lookups-data==1.0.5
+sqlparse==0.4.4
 srsly==2.4.8
 stack-data==0.6.3
 streamlit==1.28.1
