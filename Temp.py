@@ -74,15 +74,15 @@ def extract_education_from_resume(doc):
 # --------------------------------------------------------------------------------
 
 # ----------------------------------Extract Skills--------------------------------
-nlp_skills = spacy.load('TrainedModel/skills')  # Load the trained NER model for skills
-
 def extract_skills(doc):
+    skills_keywords = load_keywords('data/newSkills.csv')
     skills = set()
-    for ent in nlp_skills(doc.text).ents:
-        if ent.label_ == 'SKILL':
-            skills.add(ent.text)
-    return skills
 
+    for keyword in skills_keywords:
+        if keyword.lower() in doc.text.lower():
+            skills.add(keyword)
+
+    return skills
 # --------------------------------------------------------------------------------
 
 # ----------------------------------Extract Major---------------------------------
