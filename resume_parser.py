@@ -74,17 +74,46 @@ def extract_education_from_resume(doc):
 # --------------------------------------------------------------------------------
 
 # ----------------------------------Extract Skills--------------------------------
+def csv_skills(doc):
+    skills_keywords = load_keywords('data/newSkills.csv')
+    skills = set()
+
+    for keyword in skills_keywords:
+        if keyword.lower() in doc.text.lower():
+            skills.add(keyword)
+
+    return skills
+
 nlp_skills = spacy.load('TrainedModel/skills')  # Load the trained NER model for skills
 
-def extract_skills(doc):
+def extract_skills_from_ner(doc):
+    non_skill_labels = {'DATE', 'TIME', 'PERCENT', 'MONEY', 'QUANTITY', 'ORDINAL', 'CARDINAL', 'EMAIL'}
+    
     skills = set()
     for ent in nlp_skills(doc.text).ents:
         if ent.label_ == 'SKILL':
-            # Filter out non-alphabetic characters and numbers
-            skill_text = ''.join(filter(str.isalpha, ent.text))
-            if skill_text:
-                skills.add(skill_text)
+            # Check if the entity text is not in the non-skill labels set
+            if ent.label_ not in non_skill_labels and not ent.text.isdigit():
+                # Filter out non-alphabetic characters
+                skill_text = ''.join(filter(str.isalpha, ent.text))
+                if skill_text:
+                    skills.add(skill_text)
     return skills
+
+def is_valid_skill(skill_text):
+    # Define criteria for valid skills (modify/add criteria as needed)
+    return len(skill_text) > 1 and not any(char.isdigit() for char in skill_text)
+
+def extract_skills(doc):
+    skills_csv = csv_skills(doc)
+    skills_ner = extract_skills_from_ner(doc)
+    
+    filtered_skills_csv = {skill for skill in skills_csv if is_valid_skill(skill)}
+    filtered_skills_ner = {skill for skill in skills_ner if is_valid_skill(skill)}
+    
+    combined_skills = filtered_skills_csv.union(filtered_skills_ner)  # Combine filtered skills without duplicates
+    
+    return list(combined_skills)  # Return combined filtered skills as a list
 
 # --------------------------------------------------------------------------------
 

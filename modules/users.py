@@ -1,5 +1,5 @@
 import streamlit as st
-from resume_parser import extract_resume_info_from_pdf, extract_resume_info, calculate_resume_score, show_colored_skills, extract_experience, suggest_skills_for_job, extract_contact_number_from_resume, extract_education_from_resume
+from resume_parser import extract_resume_info_from_pdf, extract_resume_info, calculate_resume_score, extract_skills, show_colored_skills, extract_experience, suggest_skills_for_job, extract_contact_number_from_resume, extract_education_from_resume
 
 def process_user_mode():
     st.title("Resume Parser using NLP")
@@ -31,6 +31,7 @@ def process_user_mode():
         st.markdown('<hr>', unsafe_allow_html=True)
         st.header("Skills:")
         show_colored_skills(resume_info['skills'])
+
 
         st.markdown('<hr>', unsafe_allow_html=True)
         st.header("Experience:")

@@ -1,941 +1,891 @@
-Python
-Java
-C++
-JavaScript
-C#
-Ruby
-Swift
-Kotlin
-Go
-TypeScript
-HTML5
-CSS3
-React
-Angular
-Vue.js
-Node.js
-Express.js
-Django
-Flask
-RESTful APIs
-SQL
-MySQL
-PostgreSQL
-MongoDB
-Oracle
-SQLite
-NoSQL
-Linux/Unix
-Windows Server
-macOS
-Git
-GitHub
-GitLab
-Bitbucket
-Docker
-Kubernetes
-Jenkins
-Ansible
-Terraform
-Amazon Web Services (AWS)
-Microsoft Azure
-Google Cloud Platform (GCP)
-Android Development (Java/Kotlin)
-iOS Development (Swift)
-Network Security
-Ethical Hacking
-Cryptography
-Security Protocols
-Penetration Testing
-NumPy
-Pandas
-Matplotlib
-Scikit-learn
-TensorFlow
-PyTorch
-Data Analysis
-Natural Language Processing (NLP)
-Sorting Algorithms
-Searching Algorithms
-Graph Theory
-Dynamic Programming
-Agile
-Scrum
-Kanban
-Object-Oriented Programming (OOP)
-Functional Programming
-Event-Driven Programming
-WebSockets
-GraphQL
-WebAssembly
-Apache
-Nginx
-Tomcat
-JUnit
-Selenium
-Jest
-Continuous Integration
-Continuous Deployment
-OpenAPI
-GraphQL
-Postman
-TCP/IP
-DNS
-HTTP/HTTPS
-VPN
-Spring (Java)
-Django (Python)
-Ruby on Rails
-Flask (Python)
-Visual Studio Code
-IntelliJ IDEA
-Eclipse
-Jira
-Trello
-Asana
-Communication
-Problem-Solving
-Team Collaboration
-Time Management
-Adaptability
-Shell scripting
-D3.js (Data-Driven Documents)
-Redux (State management for JavaScript apps)
-Xamarin (Cross-platform mobile app development)
-Flask-RESTful (RESTful API development in Python)
-BigQuery (Google Cloud data warehouse)
-Hadoop
-MapReduce
-Apache Kafka (Distributed streaming platform)
-RabbitMQ (Message broker)
-GraphQL (Query language for APIs)
-Redux-Saga (Middleware library for Redux)
-Electron (Cross-platform desktop app development)
-Polymer (JavaScript library for building web components)
-Rust (Programming language focused on performance and safety)
-Clojure (Functional programming language)
-Elm (Functional programming language for front-end development)
-Meteor (Full-stack JavaScript framework)
-Apache Spark (Distributed computing)
-RxJS (Reactive programming in JavaScript)
-Blockchain development
-Solidity (Programming language for smart contracts)
-Apache Cordova (Mobile app development using web technologies)
-Flask-SQLAlchemy (SQL toolkit for Python)
-GraphQL Yoga (Fully-featured GraphQL server)
-Firebase (Mobile and web application development platform)
-Amazon DynamoDB (NoSQL database)
-Apache Cassandra (Distributed NoSQL database)
-Neo4j (Graph database)
-Microsoft SQL Server
-Heroku (Cloud platform as a service)
-PaaS (Platform as a Service)
-Serverless architecture
-Microservices architecture
-Istio (Service mesh)
-AWS Lambda (Serverless computing)
-Jupyter Notebooks (Interactive computing and data visualization)
-R programming language
-Julia (Programming language for technical computing)
-Grafana (Open-source analytics and monitoring platform)
-Prometheus (Monitoring and alerting toolkit)
-Splunk (Data analysis and visualization)
-ELK Stack (Elasticsearch, Logstash, and Kibana)
-Kibana (Data visualization tool)
-Grafana (Open-source analytics and monitoring platform)
-Zeppelin (Web-based notebook for data analytics)
-Data warehousing
-Power BI (Business analytics tool)
-Tableau (Data visualization and business intelligence)
-Snowflake (Cloud-based data warehousing)
-Virtualization (e.g., VMware, VirtualBox)
-Augmented Reality (AR)
-Virtual Reality (VR)
-3D modeling (e.g., Blender)
-Computer vision
-Natural Language Generation (NLG)
-Automated Speech Recognition (ASR)
-Computer-aided design (CAD)
-Cyber-physical systems
-Quantum computing
-Web scraping
-RESTful design principles
-GraphQL mutations
-OAuth (Authorization framework)
-OpenID Connect (Authentication on top of OAuth)
-JSON Web Tokens (JWT)
-OAuth2.0
-OpenID Connect (OIDC)
-WebAuthn (Web Authentication API)
-JWT (JSON Web Tokens)
-OAuth (Open Authorization)
-OAuth2.0 (Authorization framework)
-OpenID Connect (Authentication on top of OAuth)
-Firebase Authentication
-OAuth2.0 flows (Authorization Code, Implicit, Resource Owner Password Credentials)
-OAuth 2.0 grants (Authorization Code, Implicit, Resource Owner Password Credentials)
-Single Sign-On (SSO)
-Two-Factor Authentication (2FA)
-FIDO2 (WebAuthn)
-Identity and Access Management (IAM)
-RBAC (Role-Based Access Control)
-ABAC (Attribute-Based Access Control)
-CQRS (Command Query Responsibility Segregation)
-Event Sourcing
-Micro Frontends
-Progressive Web Apps (PWAs)
-Single Page Applications (SPAs)
-WebAssembly (Wasm)
-OpenAPI Specification
-SOAP (Simple Object Access Protocol)
-GraphQL subscriptions
-Server-Sent Events (SSE)
-WebSockets
-Webhooks
-Application Performance Monitoring (APM)
-Log management
-Error tracking
-Distributed tracing
-Chaos engineering
-Load balancing
-Critical Thinking
-Problem-Solving
-Decision Making
-Analytical Skills
-Creativity
-Innovation
-Adaptability
-Time Management
-Organization
-Prioritization
-Communication
-Collaboration
-Teamwork
-Leadership
-Conflict Resolution
-Emotional Intelligence
-Empathy
-Active Listening
-Presentation Skills
-Public Speaking
-Negotiation
-Networking
-Customer Service
-Client Management
-Relationship Building
-Cultural Sensitivity
-Ethics
-Integrity
-Initiative
-Self-Motivation
-Learning Agility
-Flexibility
-Resilience
-Stress Management
-Interpersonal Skills
-Cross-Cultural Competence
-Business Acumen
-Project Management
-Risk Management
-Quality Assurance
-Conflict Management
-Change Management
-Decision-Making
-Financial Literacy
-Entrepreneurship
-Business Development
-Sales Skills
-Marketing
-Customer Relationship Management (CRM)
-Strategic Planning
-Data Literacy
-Digital Literacy
-Information Literacy
-Research Skills
-Technical Writing
-Documentation
-Report Writing
-Blogging
-Public Relations
-Time Tracking
-Goal Setting
-Delegation
-Motivational Skills
-Cross-Functional Collaboration
-Stakeholder Management
-Feedback and Coaching
-Mentoring
-Knowledge Sharing
-Training and Development
-Conflict Resolution
-Facilitation Skills
-Decision Making Under Pressure
-Attention to Detail
-Project Coordination
-Crisis Management
-Strategic Thinking
-Systems Thinking
-Forecasting
-Trend Analysis
-Presentation Design
-Data Visualization
-Storytelling
-Cultural Intelligence
-Social Media Management
-Community Building
-Volunteerism
-Time Blocking
-Goal Setting
-Continuous Improvement
-Team Building
-Appreciative Inquiry
-User-Centered Design
-User Experience (UX) Design
-User Interface (UI) Design
-Human-Computer Interaction (HCI)
-Design Thinking
-Agile Methodology
-Scrum
-Kanban
-Lean Thinking
-Racket (Lisp dialect)
-Julia (Programming language for technical computing)
-Shell scripting
-WebRTC (Real-Time Communication)
-NATS (Messaging system)
-CockroachDB (Distributed SQL database)
-InfluxDB (Open-source time-series database)
-ArangoDB (Multi-model NoSQL database)
-Flink (Stream processing framework)
-RabbitMQ (Message broker)
-Celery (Distributed task queue)
-Redis (In-memory data structure store)
-GraphQL subscriptions
-GRPC (Remote procedure call framework)
-Protocol Buffers
-Flutter (UI toolkit for building natively compiled applications)
-Xamarin (Cross-platform mobile app development)
-Unity (Game development)
-Godot Engine (Open-source game development)
-Rust (Programming language focused on performance and safety)
-ClojureScript (Clojure compiler for JavaScript)
-Elm (Functional programming language for front-end development)
-Meteor (Full-stack JavaScript framework)
-Puppet (Configuration management tool)
-Chef (Infrastructure automation framework)
-Pulumi (Infrastructure as code)
-HashiCorp Vault (Secrets management)
-Cockpit (Linux server management)
-Apache Kafka Streams (Stream processing library)
-Logstash (Server-side data processing pipeline)
-Kibana (Data visualization tool)
-RabbitMQ (Message broker)
-NATS (Messaging system)
-Fluentd (Open-source data collector)
-ArgoCD (GitOps continuous delivery tool)
-Argo Workflows (Workflow engine)
-Kubernetes Operators
-Helm (Package manager for Kubernetes)
-Consul (Service networking)
-Linkerd (Service mesh)
-Knative (Serverless workloads on Kubernetes)
-AWS Fargate (Serverless container service)
-AWS Step Functions (Serverless workflow)
-Apache NiFi (Data integration and distribution framework)
-Apache ZooKeeper (Distributed coordination)
-Google Cloud Pub/Sub (Messaging service)
-Firebase Cloud Messaging (FCM)
-Azure Event Hubs (Real-time data streaming)
-Azure Logic Apps (Workflow automation)
-Azure Functions (Serverless compute)
-Machine Learning Operations (MLOps)
-ModelOps (Operationalizing machine learning models)
-TensorFlow Extended (TFX)
-Kubeflow (Machine learning toolkit for Kubernetes)
-DataRobot (Automated machine learning)
-MLflow (Open-source platform for managing the end-to-end machine learning lifecycle)
-SageMaker (Amazon's machine learning platform)
-Amazon Comprehend (Natural language processing)
-Dialogflow (Conversational interface development)
-Alexa Skills Kit (ASK)
-Chatbot development
-Speech-to-text (STT) systems
-Computer-aided design (CAD)
-Generative Design
-Augmented Reality (AR)
-Virtual Reality (VR)
-3D printing
-Computer vision
-Natural Language Generation (NLG)
-Automated Speech Recognition (ASR)
-Optical Character Recognition (OCR)
-Robotic Process Automation (RPA)
-Process Mining
-Quantum computing
-Quantum programming languages (Qiskit, Q#)
-Quantum algorithms
-Quantum cryptography
-Quantum machine learning
-Server-Sent Events (SSE)
-WebSockets
-WebRTC (Real-Time Communication)
-Webhooks
-CORS (Cross-Origin Resource Sharing)
-JSON Web Tokens (JWT)
-OAuth (Open Authorization)
-OAuth2.0 (Authorization framework)
-OpenID Connect (OIDC)
-WebAuthn (Web Authentication API)
-Identity and Access Management (IAM)
-RBAC (Role-Based Access Control)
-ABAC (Attribute-Based Access Control)
-CQRS (Command Query Responsibility Segregation)
-Event Sourcing
-Micro Frontends
-Progressive Web Apps (PWAs)
-Single Page Applications (SPAs)
-WebAssembly (Wasm)
-Web Components
-OpenAPI Specification
-gRPC-Web
-Negotiation
-Networking
-Customer Service
-Client Management
-Relationship Building
-Cultural Sensitivity
-Ethics
-Integrity
-Initiative
-Self-Motivation
-Learning Agility
-Flexibility
-Resilience
-Stress Management
-Interpersonal Skills
-Cross-Cultural Competence
-Business Acumen
-Project Management
-Risk Management
-Quality Assurance
-Conflict Management
-Change Management
-Decision-Making
-Financial Literacy
-Entrepreneurship
-Business Development
-Sales Skills
-Marketing
-Customer Relationship Management (CRM)
-Strategic Planning
-Data Literacy
-Digital Literacy
-Information Literacy
-Research Skills
-Technical Writing
-Documentation
-Report Writing
-Blogging
-Public Relations
-Time Tracking
-Goal Setting
-Delegation
-Motivational Skills
-Cross-Functional Collaboration
-Stakeholder Management
-Feedback and Coaching
-Mentoring
-Knowledge Sharing
-Training and Development
-Conflict Resolution
-Facilitation Skills
-Decision Making Under Pressure
-Attention to Detail
-Project Coordination
-Crisis Management
-Strategic Thinking
-Systems Thinking
-Forecasting
-Trend Analysis
-Presentation Design
-Data Visualization
-Storytelling
-Cultural Intelligence
-Social Media Management
-Community Building
-Volunteerism
-Time Blocking
-Goal Setting
-Continuous Improvement
-Team Building
-Appreciative Inquiry
-User-Centered Design
-User Experience (UX) Design
-User Interface (UI) Design
-Human-Computer Interaction (HCI)
-Design Thinking
-Agile Methodology
-Scrum
-Kanban
-Lean Thinking
-Lean Six Sigma
-Statistical Analysis
-Regression Analysis
-A/B Testing
-Hypothesis Testing
-Data Mining
-Predictive Analytics
-Descriptive Analytics
-Prescriptive Analytics
-Risk Analysis
-Critical Path Analysis
-SWOT Analysis
-Business Intelligence
-Competitive Analysis
-Market Research
-Lean Canvas
-Business Model Canvas
-Value Proposition Design
-Empathy Mapping
-Journey Mapping
-telliJ IDEA
-Eclipse
-NetBeans
-Visual Studio
-Atom
-Sublime Text
-Vim
-Emacs
-Notepad++
-Visual Studio Code
-Xcode
-Android Studio
-PyCharm
-Jupyter Notebooks
-RStudio
-MATLAB
-Anaconda
-Spyder
-Docker
-Kubernetes
-Vagrant
-VirtualBox
-VMware
-Wireshark
-Postman
-Swagger
-SoapUI
-Jenkins
-Travis CI
-GitLab CI/CD
-CircleCI
-SonarQube
-Selenium
-Jira
-Trello
-Asana
-Confluence
-Slack
-Mattermost
-Rocket.Chat
-Discord
-Zoom
-Microsoft Teams
-Webex
-Google Meet
-Figma
-Sketch
-Adobe XD
-Zeplin
-Blender
-Unity
-Unreal Engine
-Godot Engine
-AutoCAD
-SolidWorks
-CATIA
-Creo
-KiCad
-Altium Designer
-Eagle
-TensorFlow
-PyTorch
-Keras
-Scikit-learn
-Pandas
-NumPy
-Matplotlib
-Tableau
-Power BI
-QlikView
-SAS
-SPSS
-R
-Git
-Mercurial
-Subversion
-CVS
-Perforce
-IntelliJ IDEA
-Eclipse
-NetBeans
-Visual Studio
-Atom
-Sublime Text
-Vim
-Emacs
-Notepad++
-Visual Studio Code
-Xcode
-Android Studio
-PyCharm
-Jupyter Notebooks
-RStudio
-MATLAB
-Anaconda
-Spyder
-Docker
-Kubernetes
-Vagrant
-VirtualBox
-VMware
-Wireshark
-Postman
-Swagger
-SoapUI
-Jenkins
-Travis CI
-GitLab CI/CD
-CircleCI
-SonarQube
-Selenium
-Jira
-Trello
-Asana
-Confluence
-Slack
-Mattermost
-Rocket.Chat
-Discord
-Zoom
-Microsoft Teams
-Webex
-Google Meet
-Figma
-Sketch
-Adobe XD
-Zeplin
-Blender
-Unity
-Unreal Engine
-Godot Engine
-AutoCAD
-SolidWorks
-CATIA
-Creo
-KiCad
-Altium Designer
-Eagle
-TensorFlow
-PyTorch
-Keras
-Scikit-learn
-Pandas
-NumPy
-Matplotlib
-Tableau
-Power BI
-QlikView
-SAS
-SPSS
-R
-Git
-Mercurial
-Subversion
-CVS
-Perforce
-AWS Lambda
-Apache NiFi
-Apache ZooKeeper
-Google Cloud Pub/Sub
-Firebase Cloud Messaging (FCM)
-Azure Event Hubs
-Azure Logic Apps
-Azure Functions
-Machine Learning Operations (MLOps)
-ModelOps
-TensorFlow Extended (TFX)
-Kubeflow
-DataRobot
-MLflow
-SageMaker
-Amazon Comprehend
-Dialogflow
-Alexa Skills Kit (ASK)
-Chatbot development
-Speech-to-text (STT) systems
-Computer-aided design (CAD)
-Generative Design
-Augmented Reality (AR)
-Virtual Reality (VR)
-3D printing
-Computer vision
-Natural Language Generation (NLG)
-Automated Speech Recognition (ASR)
-Optical Character Recognition (OCR)
-Robotic Process Automation (RPA)
-Process Mining
-Quantum computing
-Quantum programming languages (Qiskit, Q#)
-Quantum algorithms
-Quantum cryptography
-Quantum machine learning
-Server-Sent Events (SSE)
-WebSockets
-WebRTC (Real-Time Communication)
-Webhooks
-CORS (Cross-Origin Resource Sharing)
-JSON Web Tokens (JWT)
-OAuth (Open Authorization)
-OAuth2.0 (Authorization framework)
-OpenID Connect (OIDC)
-WebAuthn (Web Authentication API)
-Identity and Access Management (IAM)
-RBAC (Role-Based Access Control)
-ABAC (Attribute-Based Access Control)
-CQRS (Command Query Responsibility Segregation)
-Event Sourcing
-Micro Frontends
-Progressive Web Apps (PWAs)
-Single Page Applications (SPAs)
-WebAssembly (Wasm)
-Web Components
-OpenAPI Specification
-gRPC-Web
-Wireshark (Network protocol analyzer)
-Postman (API development and testing)
-Swagger (API documentation)
-SoapUI (API testing tool)
-Jenkins (Continuous Integration/Continuous Deployment)
-Travis CI (Continuous Integration)
-GitLab CI/CD (Continuous Integration/Continuous Deployment)
-CircleCI (Continuous Integration)
-SonarQube (Code quality analysis)
-Selenium (Web application testing)
-Jira (Project management and issue tracking)
-Trello (Project management)
-Asana (Project management)
-Confluence (Collaboration and documentation)
-Slack (Team communication)
-Mattermost (Open-source team communication)
-Rocket.Chat (Open-source team communication)
-Discord (Voice, video, and text communication)
-Zoom (Video conferencing)
-Microsoft Teams (Collaboration platform)
-Webex (Video conferencing)
-Google Meet (Video conferencing)
-Figma
-Sketch
-Adobe XD
-Zeplin
-Blender
-Unity
-Unreal Engine
-Godot Engine
-AutoCAD
-SolidWorks
-CATIA
-Creo
-KiCad
-Altium Designer
-Eagle
-TensorFlow
-PyTorch
-Keras
-Scikit-learn
-Pandas
-NumPy
-Matplotlib
-Tableau
-Power BI
-QlikView
-SAS
-SPSS
-R
-Git
-Mercurial
-Subversion
-CVS
-Perforce
-IntelliJ IDEA
-Eclipse
-NetBeans
-Visual Studio
-Atom
-Sublime Text
-Vim
-Emacs
-Notepad++
-Unit Testing
-Integration Testing
-Test-Driven Development (TDD)
-RESTful API Design
-GraphQL
-Microservices Architecture
-Serverless Computing
-Progressive Web Apps (PWAs)
-Cloud-Native Development
-WebSockets
-DevOps Practices
-Continuous Integration/Continuous Deployment (CI/CD)
-Infrastructure as Code (IaC)
-Container Orchestration (e.g., Kubernetes)
-Service Mesh (e.g., Istio)
-Observability
-Distributed Systems Design
-Load Balancing
-Circuit Breaker Patterns
-Agile Methodology
-Scrum
-Kanban
-Design Patterns
-Refactoring
-Code Review
-Pair Programming
-Cross-Platform Development
-Responsive Web Design
-Mobile-First Development
-Accessibility Standards
-Performance Optimization
-Code Profiling
-Memory Management
-Code Versioning (e.g., Git)
-Code Review
-Design Thinking
-Behavioral Driven Development (BDD)
-Domain-Driven Design (DDD)
-Event-Driven Architecture
-Continuous Learning and Adaptability
-Data Scientist:
-Data Exploration
-Feature Engineering
-Model Evaluation
-Hypothesis Testing
-A/B Testing
-Bayesian Statistics
-Time Series Analysis
-Natural Language Processing (NLP)
-Sentiment Analysis
-Predictive Modeling
-Machine Learning Algorithms
-Neural Networks
-Deep Learning
-Reinforcement Learning
-Ensemble Learning
-Cross-Validation
-Hyperparameter Tuning
-Dimensionality Reduction
-Clustering Techniques
-Data Wrangling
-Data Cleaning
-Data Visualization (e.g., Seaborn, Plotly)
-Dashboarding Tools (e.g., Tableau, Power BI)
-Feature Scaling
-SQL
-NoSQL Databases
-Big Data Technologies (e.g., Hadoop, Spark)
-Data Governance
-Ethical Data Handling
-Data Privacy Regulations
-Threat Intelligence
-Security Incident Response
-Penetration Testing
-Vulnerability Assessment
-Security Information and Event Management (SIEM)
-Firewall Configuration
-Intrusion Detection Systems (IDS)
-Intrusion Prevention Systems (IPS)
-Security Auditing
-Network Security
-Endpoint Security
-Identity and Access Management (IAM)
-Encryption Techniques
-Secure Coding Practices
-Application Security
-Cloud Security
-Incident Handling
-Risk Management
-Security Policies and Compliance
-Security Awareness Training
-Cloud Service Providers (e.g., AWS, Azure, GCP)
-Cloud Architecture Design
-Hybrid Cloud Solutions
-Multi-Cloud Strategies
-Cloud Security
-Identity and Access Management (IAM) in Cloud
-Serverless Architectures
-Cloud-Native Development
-Microservices Deployment
-DevOps in Cloud Environments
-Cloud Cost Management
-Disaster Recovery Planning
-Cloud Networking
-Containerization
-Orchestration
-Kubernetes
-Infrastructure as Code 
-Serverless Computing
-API Gateway Configuration
-Cloud Monitoring and Optimization
-Cloud Governance
-Routing Protocols
-Switching Protocols
-Network Security
-Firewalls and Proxy Servers
-Virtual Private Networks
-VPN
-Wireless Networking
-Load Balancing
-Network Monitoring Tools
-Quality of Service (QoS)
-IP Addressing and Subnetting
-Network Troubleshooting
-Network Design
-Cloud Networking
-Software-Defined Networking (SDN)
-Network Automation
-Network Configuration Management
-Voice over IP (VoIP)
-Network Protocols (e.g., TCP/IP, UDP)
-Intrusion Detection Systems (IDS)
-Network Capacity Planning
-User Research
-Wireframing
-Prototyping
-User Persona Creation
-Information Architecture
-Interaction Design
-Visual Design
-Responsive Design Principles
-Mobile App Design
-Usability Testing
-User-Centered Design (UCD)
-Design Thinking
-Design Systems
-Sketching and Illustration
-Motion Design
-Color Theory
-Typography
-A/B Testing
-Figma or Sketch
-Adobe Creative Suite
-Mosyle MDM
-Google Admin Console
-OneLogin SAML
-Microsoft Power Automate
-Microsoft SharePoint
-CAD modeling
-Autodesk Fusion 360
-Arduino
-OS
-GUI
+Text,Entities
+Python,"[(0, 6, 'SKILL')]"
+Java,"[(0, 4, 'SKILL')]"
+C++,"[(0, 3, 'SKILL')]"
+JavaScript,"[(0, 10, 'SKILL')]"
+C#,"[(0, 1, 'SKILL')]"
+Ruby,"[(0, 3, 'SKILL')]"
+Swift,"[(0, 4, 'SKILL')]"
+Kotlin,"[(0, 6, 'SKILL')]"
+Go,"[(0, 1, 'SKILL')]"
+TypeScript,"[(0, 10, 'SKILL')]"
+HTML5,"[(0, 4, 'SKILL')]"
+CSS3,"[(0, 4, 'SKILL')]"
+React,"[(0, 4, 'SKILL')]"
+Angular,"[(0, 7, 'SKILL')]"
+Vue.js,"[(0, 6, 'SKILL')]"
+Node.js,"[(0, 6, 'SKILL')]"
+Express.js,"[(0, 9, 'SKILL')]"
+Django,"[(0, 6, 'SKILL')]"
+Flask,"[(0, 5, 'SKILL')]"
+RESTful APIs,"[(0, 12, 'SKILL')]"
+SQL,"[(0, 3, 'SKILL')]"
+MySQL,"[(0, 5, 'SKILL')]"
+PostgreSQL,"[(0, 10, 'SKILL')]"
+MongoDB,"[(0, 6, 'SKILL')]"
+Oracle,"[(0, 6, 'SKILL')]"
+SQLite,"[(0, 6, 'SKILL')]"
+NoSQL,"[(0, 4, 'SKILL')]"
+Linux/Unix,"[(0, 10, 'SKILL')]"
+Windows Server,"[(0, 14, 'SKILL')]"
+macOS,"[(0, 4, 'SKILL')]"
+Git,"[(0, 2, 'SKILL')]"
+GitHub,"[(0, 6, 'SKILL')]"
+GitLab,"[(0, 6, 'SKILL')]"
+Bitbucket,"[(0, 9, 'SKILL')]"
+Docker,"[(0, 6, 'SKILL')]"
+Kubernetes,"[(0, 10, 'SKILL')]"
+Jenkins,"[(0, 7, 'SKILL')]"
+Ansible,"[(0, 7, 'SKILL')]"
+Terraform,"[(0, 9, 'SKILL')]"
+Amazon Web Services (AWS),"[(0, 23, 'SKILL')]"
+Microsoft Azure,"[(0, 16, 'SKILL')]"
+Google Cloud Platform (GCP),"[(0, 26, 'SKILL')]"
+Android Development (Java/Kotlin),"[(0, 25, 'SKILL')]"
+iOS Development (Swift),"[(0, 19, 'SKILL')]"
+Network Security,"[(0, 15, 'SKILL')]"
+Ethical Hacking,"[(0, 15, 'SKILL')]"
+Cryptography,"[(0, 12, 'SKILL')]"
+Security Protocols,"[(0, 18, 'SKILL')]"
+Penetration Testing,"[(0, 19, 'SKILL')]"
+NumPy,"[(0, 4, 'SKILL')]"
+Pandas,"[(0, 6, 'SKILL')]"
+Matplotlib,"[(0, 11, 'SKILL')]"
+Scikit-learn,"[(0, 11, 'SKILL')]"
+TensorFlow,"[(0, 10, 'SKILL')]"
+PyTorch,"[(0, 6, 'SKILL')]"
+Data Analysis,"[(0, 12, 'SKILL')]"
+Natural Language Processing (NLP),"[(0, 30, 'SKILL')]"
+Sorting Algorithms,"[(0, 18, 'SKILL')]"
+Searching Algorithms,"[(0, 20, 'SKILL')]"
+Graph Theory,"[(0, 11, 'SKILL')]"
+Dynamic Programming,"[(0, 18, 'SKILL')]"
+Agile,"[(0, 5, 'SKILL')]"
+Scrum,"[(0, 5, 'SKILL')]"
+Kanban,"[(0, 6, 'SKILL')]"
+Object-Oriented Programming (OOP),"[(0, 32, 'SKILL')]"
+Functional Programming,"[(0, 20, 'SKILL')]"
+Event-Driven Programming,"[(0, 24, 'SKILL')]"
+WebSockets,"[(0, 10, 'SKILL')]"
+GraphQL,"[(0, 7, 'SKILL')]"
+WebAssembly,"[(0, 11, 'SKILL')]"
+Apache,"[(0, 6, 'SKILL')]"
+Nginx,"[(0, 5, 'SKILL')]"
+Tomcat,"[(0, 6, 'SKILL')]"
+JUnit,"[(0, 4, 'SKILL')]"
+Selenium,"[(0, 8, 'SKILL')]"
+Jest,"[(0, 4, 'SKILL')]"
+Continuous Integration,"[(0, 21, 'SKILL')]"
+Continuous Deployment,"[(0, 21, 'SKILL')]"
+OpenAPI,"[(0, 7, 'SKILL')]"
+Postman,"[(0, 7, 'SKILL')]"
+TCP/IP,"[(0, 6, 'SKILL')]"
+DNS,"[(0, 3, 'SKILL')]"
+HTTP/HTTPS,"[(0, 9, 'SKILL')]"
+VPN,"[(0, 3, 'SKILL')]"
+Spring (Java),"[(0, 12, 'SKILL')]"
+Django (Python),"[(0, 14, 'SKILL')]"
+Ruby on Rails,"[(0, 13, 'SKILL')]"
+Flask (Python),"[(0, 11, 'SKILL')]"
+Visual Studio Code,"[(0, 18, 'SKILL')]"
+IntelliJ IDEA,"[(0, 13, 'SKILL')]"
+Eclipse,"[(0, 6, 'SKILL')]"
+Jira,"[(0, 4, 'SKILL')]"
+Trello,"[(0, 6, 'SKILL')]"
+Asana,"[(0, 5, 'SKILL')]"
+Communication,"[(0, 13, 'SKILL')]"
+Problem-Solving,"[(0, 16, 'SKILL')]"
+Team Collaboration,"[(0, 17, 'SKILL')]"
+Time Management,"[(0, 13, 'SKILL')]"
+Adaptability,"[(0, 11, 'SKILL')]"
+Shell scripting,"[(0, 15, 'SKILL')]"
+D3.js (Data-Driven Documents),"[(0, 4, 'SKILL')]"
+Redux (State management for JavaScript apps),"[(0, 5, 'SKILL')]"
+Xamarin (Cross-platform mobile app development),"[(0, 7, 'SKILL')]"
+Flask-RESTful (RESTful API development in Python),"[(0, 12, 'SKILL')]"
+BigQuery (Google Cloud data warehouse),"[(0, 7, 'SKILL')]"
+Hadoop,"[(0, 6, 'SKILL')]"
+MapReduce,"[(0, 8, 'SKILL')]"
+Apache Kafka (Distributed streaming platform),"[(0, 12, 'SKILL')]"
+RabbitMQ (Message broker),"[(0, 7, 'SKILL')]"
+GraphQL (Query language for APIs),"[(0, 6, 'SKILL')]"
+Redux-Saga (Middleware library for Redux),"[(0, 10, 'SKILL')]"
+Electron (Cross-platform desktop app development),"[(0, 8, 'SKILL')]"
+Polymer (JavaScript library for building web components),"[(0, 7, 'SKILL')]"
+Rust (Programming language focused on performance and safety),"[(0, 4, 'SKILL')]"
+Clojure (Functional programming language),"[(0, 6, 'SKILL')]"
+Elm (Functional programming language for front-end development),"[(0, 3, 'SKILL')]"
+Meteor (Full-stack JavaScript framework),"[(0, 6, 'SKILL')]"
+Apache Spark (Distributed computing),"[(0, 13, 'SKILL')]"
+RxJS (Reactive programming in JavaScript),"[(0, 4, 'SKILL')]"
+Blockchain development,"[(0, 10, 'SKILL')]"
+Solidity (Programming language for smart contracts),"[(0, 8, 'SKILL')]"
+Apache Cordova (Mobile app development using web technologies),"[(0, 13, 'SKILL')]"
+Flask-SQLAlchemy (SQL toolkit for Python),"[(0, 15, 'SKILL')]"
+GraphQL Yoga (Fully-featured GraphQL server),"[(0, 10, 'SKILL')]"
+Firebase (Mobile and web application development platform),"[(0, 7, 'SKILL')]"
+Amazon DynamoDB (NoSQL database),"[(0, 16, 'SKILL')]"
+Apache Cassandra (Distributed NoSQL database),"[(0, 15, 'SKILL')]"
+Neo4j (Graph database),"[(0, 4, 'SKILL')]"
+Microsoft SQL Server,"[(0, 18, 'SKILL')]"
+Heroku (Cloud platform as a service),"[(0, 6, 'SKILL')]"
+PaaS (Platform as a Service),"[(0, 4, 'SKILL')]"
+Serverless architecture,"[(0, 19, 'SKILL')]"
+Microservices architecture,"[(0, 20, 'SKILL')]"
+Istio (Service mesh),"[(0, 4, 'SKILL')]"
+AWS Lambda (Serverless computing),"[(0, 8, 'SKILL')]"
+Jupyter Notebooks (Interactive computing and data visualization),"[(0, 19, 'SKILL')]"
+R programming language,"[(0, 2, 'SKILL')]"
+Julia (Programming language for technical computing),"[(0, 4, 'SKILL')]"
+Grafana (Open-source analytics and monitoring platform),"[(0, 6, 'SKILL')]"
+Prometheus (Monitoring and alerting toolkit),"[(0, 10, 'SKILL')]"
+Splunk (Data analysis and visualization),"[(0, 5, 'SKILL')]"
+ELK Stack (Elasticsearch, Logstash, and Kibana),"[(0, 8, 'SKILL')]"
+Kibana (Data visualization tool),"[(0, 6, 'SKILL')]"
+Grafana (Open-source analytics and monitoring platform),"[(0, 6, 'SKILL')]"
+Zeppelin (Web-based notebook for data analytics),"[(0, 8, 'SKILL')]"
+Data warehousing,"[(0, 13, 'SKILL')]"
+Power BI (Business analytics tool),"[(0, 7, 'SKILL')]"
+Tableau (Data visualization and business intelligence),"[(0, 6, 'SKILL')]"
+Snowflake (Cloud-based data warehousing),"[(0, 8, 'SKILL')]"
+Virtualization (e.g., VMware, VirtualBox),"[(0, 13, 'SKILL')]"
+Augmented Reality (AR),"[(0, 17, 'SKILL')]"
+Virtual Reality (VR),"[(0, 8, 'SKILL')]"
+3D modeling (e.g., Blender),"[(0, 9, 'SKILL')]"
+Computer vision,"[(0, 15, 'SKILL')]"
+Natural Language Generation (NLG),"[(0, 29, 'SKILL')]"
+Automated Speech Recognition (ASR),"[(0, 31, 'SKILL')]"
+Computer-aided design (CAD),"[(0, 21, 'SKILL')]"
+Cyber-physical systems,"[(0, 19, 'SKILL')]"
+Quantum computing,"[(0, 16, 'SKILL')]"
+Web scraping,"[(0, 11, 'SKILL')]"
+RESTful design principles,"[(0, 24, 'SKILL')]"
+GraphQL mutations,"[(0, 19, 'SKILL')]"
+OAuth (Authorization framework),"[(0, 5, 'SKILL')]"
+OpenID Connect (Authentication on top of OAuth),"[(0, 12, 'SKILL')]"
+JSON Web Tokens (JWT),"[(0, 23, 'SKILL')]"
+OAuth2.0,"[(0, 7, 'SKILL')]"
+OpenID Connect (OIDC),"[(0, 12, 'SKILL')]"
+WebAuthn (Web Authentication API),"[(0, 8, 'SKILL')]"
+JWT (JSON Web Tokens),"[(0, 3, 'SKILL')]"
+OAuth (Open Authorization),"[(0, 5, 'SKILL')]"
+OAuth2.0 (Authorization framework),"[(0, 14, 'SKILL')]"
+OpenID Connect (Authentication on top of OAuth),"[(0, 12, 'SKILL')]"
+Firebase Authentication,"[(0, 22, 'SKILL')]"
+OAuth2.0 flows (Authorization Code, Implicit, Resource Owner Password Credentials),"[(0, 62, 'SKILL')]"
+OAuth 2.0 grants (Authorization Code, Implicit, Resource Owner Password Credentials),"[(0, 64, 'SKILL')]"
+Single Sign-On (SSO),"[(0, 20, 'SKILL')]"
+Two-Factor Authentication (2FA),"[(0, 29, 'SKILL')]"
+FIDO2 (WebAuthn),"[(0, 6, 'SKILL')]"
+Identity and Access Management (IAM),"[(0, 31, 'SKILL')]"
+RBAC (Role-Based Access Control),"[(0, 5, 'SKILL')]"
+ABAC (Attribute-Based Access Control),"[(0, 5, 'SKILL')]"
+CQRS (Command Query Responsibility Segregation),"[(0, 5, 'SKILL')]"
+Event Sourcing,"[(0, 14, 'SKILL')]"
+Micro Frontends,"[(0, 15, 'SKILL')]"
+Progressive Web Apps (PWAs),"[(0, 25, 'SKILL')]"
+Single Page Applications (SPAs),"[(0, 27, 'SKILL')]"
+WebAssembly (Wasm),"[(0, 14, 'SKILL')]"
+OpenAPI Specification,"[(0, 21, 'SKILL')]"
+SOAP (Simple Object Access Protocol),"[(0, 4, 'SKILL')]"
+GraphQL subscriptions,"[(0, 21, 'SKILL')]"
+Server-Sent Events (SSE),"[(0, 26, 'SKILL')]"
+WebSockets,"[(0, 10, 'SKILL')]"
+Webhooks,"[(0, 8, 'SKILL')]"
+Application Performance Monitoring (APM),"[(0, 33, 'SKILL')]"
+Log management,"[(0, 11, 'SKILL')]"
+Error tracking,"[(0, 13, 'SKILL')]"
+Distributed tracing,"[(0, 17, 'SKILL')]"
+Chaos engineering,"[(0, 16, 'SKILL')]"
+Load balancing,"[(0, 13, 'SKILL')]"
+Critical Thinking,"[(0, 16, 'SKILL')]"
+Problem-Solving,"[(0, 15, 'SKILL')]"
+Decision Making,"[(0, 14, 'SKILL')]"
+Analytical Skills,"[(0, 16, 'SKILL')]"
+Creativity,"[(0, 9, 'SKILL')]"
+Innovation,"[(0, 10, 'SKILL')]"
+Adaptability,"[(0, 11, 'SKILL')]"
+Time Management,"[(0, 14, 'SKILL')]"
+Organization,"[(0, 12, 'SKILL')]"
+Prioritization,"[(0, 13, 'SKILL')]"
+Communication,"[(0, 13, 'SKILL')]"
+Collaboration,"[(0, 13, 'SKILL')]"
+Teamwork,"[(0, 8, 'SKILL')]"
+Leadership,"[(0, 10, 'SKILL')]"
+Conflict Resolution,"[(0, 18, 'SKILL')]"
+Emotional Intelligence,"[(0, 21, 'SKILL')]"
+Empathy,"[(0, 7, 'SKILL')]"
+Active Listening,"[(0, 15, 'SKILL')]"
+Presentation Skills,"[(0, 19, 'SKILL')]"
+Public Speaking,"[(0, 14, 'SKILL')]"
+Negotiation,"[(0, 11, 'SKILL')]"
+Networking,"[(0, 9, 'SKILL')]"
+Customer Service,"[(0, 16, 'SKILL')]"
+Client Management,"[(0, 16, 'SKILL')]"
+Relationship Building,"[(0, 20, 'SKILL')]"
+Cultural Sensitivity,"[(0, 18, 'SKILL')]"
+Ethics,"[(0, 6, 'SKILL')]"
+Integrity,"[(0, 9, 'SKILL')]"
+Initiative,"[(0, 9, 'SKILL')]"
+Self-Motivation,"[(0, 14, 'SKILL')]"
+Learning Agility,"[(0, 15, 'SKILL')]"
+Flexibility,"[(0, 11, 'SKILL')]"
+Resilience,"[(0, 9, 'SKILL')]"
+Stress Management,"[(0, 16, 'SKILL')]"
+Interpersonal Skills,"[(0, 19, 'SKILL')]"
+Cross-Cultural Competence,"[(0, 24, 'SKILL')]"
+Business Acumen,"[(0, 14, 'SKILL')]"
+Project Management,"[(0, 17, 'SKILL')]"
+Risk Management,"[(0, 14, 'SKILL')]"
+Quality Assurance,"[(0, 17, 'SKILL')]"
+Conflict Management,"[(0, 17, 'SKILL')]"
+Change Management,"[(0, 15, 'SKILL')]"
+Decision-Making,"[(0, 14, 'SKILL')]"
+Financial Literacy,"[(0, 17, 'SKILL')]"
+Entrepreneurship,"[(0, 14, 'SKILL')]"
+Business Development,"[(0, 19, 'SKILL')]"
+Sales Skills,"[(0, 11, 'SKILL')]"
+Marketing,"[(0, 8, 'SKILL')]"
+Customer Relationship Management (CRM),"[(0, 34, 'SKILL')]"
+Strategic Planning,"[(0, 18, 'SKILL')]"
+Data Literacy,"[(0, 12, 'SKILL')]"
+Digital Literacy,"[(0, 14, 'SKILL')]"
+Information Literacy,"[(0, 19, 'SKILL')]"
+Research Skills,"[(0, 14, 'SKILL')]"
+Technical Writing,"[(0, 17, 'SKILL')]"
+Documentation,"[(0, 12, 'SKILL')]"
+Report Writing,"[(0, 13, 'SKILL')]"
+Blogging,"[(0, 7, 'SKILL')]"
+Public Relations,"[(0, 15, 'SKILL')]"
+Time Tracking,"[(0, 12, 'SKILL')]"
+Goal Setting,"[(0, 11, 'SKILL')]"
+Delegation,"[(0, 10, 'SKILL')]"
+Motivational Skills,"[(0, 18, 'SKILL')]"
+Cross-Functional Collaboration,"[(0, 29, 'SKILL')]"
+Stakeholder Management,"[(0, 22, 'SKILL')]"
+Feedback and Coaching,"[(0, 19, 'SKILL')]"
+Mentoring,"[(0, 8, 'SKILL')]"
+Knowledge Sharing,"[(0, 16, 'SKILL')]"
+Training and Development,"[(0, 22, 'SKILL')]"
+Conflict Resolution,"[(0, 18, 'SKILL')]"
+Facilitation Skills,"[(0, 19, 'SKILL')]"
+Decision Making Under Pressure,"[(0, 26, 'SKILL')]"
+Attention to Detail,"[(0, 17, 'SKILL')]"
+Project Coordination,"[(0, 19, 'SKILL')]"
+Crisis Management,"[(0, 15, 'SKILL')]"
+Strategic Thinking,"[(0, 17, 'SKILL')]"
+Systems Thinking,"[(0, 15, 'SKILL')]"
+Forecasting,"[(0, 11, 'SKILL')]"
+Trend Analysis,"[(0, 13, 'SKILL')]"
+Presentation Design,"[(0, 18, 'SKILL')]"
+Data Visualization,"[(0, 16, 'SKILL')]"
+Storytelling,"[(0, 12, 'SKILL')]"
+Cultural Intelligence,"[(0, 20, 'SKILL')]"
+Social Media Management,"[(0, 22, 'SKILL')]"
+Community Building,"[(0, 17, 'SKILL')]"
+Volunteerism,"[(0, 11, 'SKILL')]"
+Time Blocking,"[(0, 13, 'SKILL')]"
+Goal Setting,"[(0, 11, 'SKILL')]"
+Continuous Improvement,"[(0, 20, 'SKILL')]"
+Team Building,"[(0, 12, 'SKILL')]"
+Appreciative Inquiry,"[(0, 20, 'SKILL')]"
+User-Centered Design,"[(0, 20, 'SKILL')]"
+User Experience (UX) Design,"[(0, 26, 'SKILL')]"
+User Interface (UI) Design,"[(0, 20, 'SKILL')]"
+Human-Computer Interaction (HCI),"[(0, 29, 'SKILL')]"
+Design Thinking,"[(0, 14, 'SKILL')]"
+Agile Methodology,"[(0, 17, 'SKILL')]"
+Scrum,"[(0, 5, 'SKILL')]"
+Kanban,"[(0, 6, 'SKILL')]"
+Lean Thinking,"[(0, 12, 'SKILL')]"
+Racket (Lisp dialect),"[(0, 6, 'SKILL')]"
+Julia (Programming language for technical computing),"[(0, 5, 'SKILL')]"
+Shell scripting,"[(0, 14, 'SKILL')]"
+WebRTC (Real-Time Communication),"[(0, 25, 'SKILL')]"
+NATS (Messaging system),"[(0, 19, 'SKILL')]"
+CockroachDB (Distributed SQL database),"[(0, 29, 'SKILL')]"
+InfluxDB (Open-source time-series database),"[(0, 34, 'SKILL')]"
+ArangoDB (Multi-model NoSQL database),"[(0, 24, 'SKILL')]"
+Flink (Stream processing framework),"[(0, 30, 'SKILL')]"
+RabbitMQ (Message broker),"[(0, 19, 'SKILL')]"
+Celery (Distributed task queue),"[(0, 25, 'SKILL')]"
+Redis (In-memory data structure store),"[(0, 21, 'SKILL')]"
+GraphQL subscriptions,"[(0, 21, 'SKILL')]"
+GRPC (Remote procedure call framework),"[(0, 4, 'SKILL')]"
+Protocol Buffers,"[(0, 18, 'SKILL')]"
+Flutter (UI toolkit for building natively compiled applications),"[(0, 29, 'SKILL')]"
+Xamarin (Cross-platform mobile app development),"[(0, 38, 'SKILL')]"
+Unity (Game development),"[(0, 14, 'SKILL')]"
+Godot Engine (Open-source game development),"[(0, 31, 'SKILL')]"
+Rust (Programming language focused on performance and safety),"[(0, 19, 'SKILL')]"
+ClojureScript (Clojure compiler for JavaScript),"[(0, 37, 'SKILL')]"
+Elm (Functional programming language for front-end development),"[(0, 24, 'SKILL')]"
+Meteor (Full-stack JavaScript framework),"[(0, 25, 'SKILL')]"
+Puppet (Configuration management tool),"[(0, 20, 'SKILL')]"
+Chef (Infrastructure automation framework),"[(0, 22, 'SKILL')]"
+Pulumi (Infrastructure as code),"[(0, 25, 'SKILL')]"
+HashiCorp Vault (Secrets management),"[(0, 30, 'SKILL')]"
+Cockpit (Linux server management),"[(0, 26, 'SKILL')]"
+Apache Kafka Streams (Stream processing library),"[(0, 33, 'SKILL')]"
+Logstash (Server-side data processing pipeline),"[(0, 30, 'SKILL')]"
+Kibana (Data visualization tool),"[(0, 19, 'SKILL')]"
+RabbitMQ (Message broker),"[(0, 19, 'SKILL')]"
+NATS (Messaging system),"[(0, 19, 'SKILL')]"
+Fluentd (Open-source data collector),"[(0, 18, 'SKILL')]"
+ArgoCD (GitOps continuous delivery tool),"[(0, 32, 'SKILL')]"
+Argo Workflows (Workflow engine),"[(0, 30, 'SKILL')]"
+Kubernetes Operators,"[(0, 21, 'SKILL')]"
+Helm (Package manager for Kubernetes),"[(0, 22, 'SKILL')]"
+Consul (Service networking),"[(0, 19, 'SKILL')]"
+Linkerd (Service mesh),"[(0, 12, 'SKILL')]"
+Knative (Serverless workloads on Kubernetes),"[(0, 37, 'SKILL')]"
+AWS Fargate (Serverless container service),"[(0, 31, 'SKILL')]"
+AWS Step Functions (Serverless workflow),"[(0, 29, 'SKILL')]"
+Apache NiFi (Data integration and distribution framework),"[(0, 32, 'SKILL')]"
+Apache ZooKeeper (Distributed coordination),"[(0, 31, 'SKILL')]"
+Google Cloud Pub/Sub (Messaging service),"[(0, 33, 'SKILL')]"
+Firebase Cloud Messaging (FCM),"[(0, 27, 'SKILL')]"
+Azure Event Hubs (Real-time data streaming),"[(0, 27, 'SKILL')]"
+Azure Logic Apps (Workflow automation),"[(0, 25, 'SKILL')]"
+Azure Functions (Serverless compute),"[(0, 24, 'SKILL')]"
+Machine Learning Operations (MLOps),"[(0, 28, 'SKILL')]"
+ModelOps (Operationalizing machine learning models),"[(0, 38, 'SKILL')]"
+TensorFlow Extended (TFX),"[(0, 23, 'SKILL')]"
+Kubeflow (Machine learning toolkit for Kubernetes),"[(0, 29, 'SKILL')]"
+DataRobot (Automated machine learning),"[(0, 25, 'SKILL')]"
+MLflow (Open-source platform for managing the end-to-end machine learning lifecycle),"[(0, 72, 'SKILL')]"
+SageMaker (Amazon's machine learning platform),"[(0, 20, 'SKILL')]"
+Amazon Comprehend (Natural language processing),"[(0, 32, 'SKILL')]"
+Dialogflow (Conversational interface development),"[(0, 21, 'SKILL')]"
+Alexa Skills Kit (ASK),"[(0, 20, 'SKILL')]"
+Chatbot development,"[(0, 18, 'SKILL')]"
+Speech-to-text (STT) systems,"[(0, 26, 'SKILL')]"
+Computer-aided design (CAD),"[(0, 21, 'SKILL')]"
+Generative Design,"[(0, 16, 'SKILL')]"
+Augmented Reality (AR),"[(0, 21, 'SKILL')]"
+Virtual Reality (VR),"[(0, 19, 'SKILL')]"
+3D printing,"[(0, 11, 'SKILL')]"
+Computer vision,"[(0, 15, 'SKILL')]"
+Natural Language Generation (NLG),"[(0, 29, 'SKILL')]"
+Automated Speech Recognition (ASR),"[(0, 31, 'SKILL')]"
+Optical Character Recognition (OCR),"[(0, 30, 'SKILL')]"
+Robotic Process Automation (RPA),"[(0, 30, 'SKILL')]"
+Process Mining,"[(0, 13, 'SKILL')]"
+Quantum computing,"[(0, 16, 'SKILL')]"
+Quantum programming languages (Qiskit, Q#),"[(0, 41, 'SKILL')]"
+Quantum algorithms,"[(0, 17, 'SKILL')]"
+Quantum cryptography,"[(0, 19, 'SKILL')]"
+Quantum machine learning,"[(0, 24, 'SKILL')]"
+Server-Sent Events (SSE),"[(0, 26, 'SKILL')]"
+WebSockets,"[(0, 10, 'SKILL')]"
+WebRTC (Real-Time Communication),"[(0, 25, 'SKILL')]"
+Webhooks,"[(0, 8, 'SKILL')]"
+CORS (Cross-Origin Resource Sharing),"[(0, 29, 'SKILL')]"
+JSON Web Tokens (JWT),"[(0, 23, 'SKILL')]"
+OAuth (Open Authorization),"[(0, 25, 'SKILL')]"
+OAuth2.0 (Authorization framework),"[(0, 30, 'SKILL')]"
+OpenID Connect (OIDC),"[(0, 22, 'SKILL')]"
+WebAuthn (Web Authentication API),"[(0, 26, 'SKILL')]"
+Identity and Access Management (IAM),"[(0, 34, 'SKILL')]"
+RBAC (Role-Based Access Control),"[(0, 28, 'SKILL')]"
+ABAC (Attribute-Based Access Control),"[(0, 28, 'SKILL')]"
+CQRS (Command Query Responsibility Segregation),"[(0, 41, 'SKILL')]"
+Event Sourcing,"[(0, 14, 'SKILL')]"
+Micro Frontends,"[(0, 15, 'SKILL')]"
+Progressive Web Apps (PWAs),"[(0, 25, 'SKILL')]"
+Single Page Applications (SPAs),"[(0, 29, 'SKILL')]"
+WebAssembly (Wasm),"[(0, 17, 'SKILL')]"
+Web Components,"[(0, 14, 'SKILL')]"
+OpenAPI Specification,"[(0, 21, 'SKILL')]"
+gRPC-Web,"[(0, 8, 'SKILL')]"
+Negotiation,"[(0, 11, 'SKILL')]"
+Networking,"[(0, 10, 'SKILL')]"
+Customer Service,"[(0, 16, 'SKILL')]"
+Client Management,"[(0, 16, 'SKILL')]"
+Relationship Building,"[(0, 20, 'SKILL')]"
+Cultural Sensitivity,"[(0, 19, 'SKILL')]"
+Ethics,"[(0, 6, 'SKILL')]"
+Integrity,"[(0, 9, 'SKILL')]"
+Initiative,"[(0, 10, 'SKILL')]"
+Self-Motivation,"[(0, 15, 'SKILL')]"
+Learning Agility,"[(0, 15, 'SKILL')]"
+Flexibility,"[(0, 11, 'SKILL')]"
+Resilience,"[(0, 10, 'SKILL')]"
+Stress Management,"[(0, 17, 'SKILL')]"
+Interpersonal Skills,"[(0, 18, 'SKILL')]"
+Cross-Cultural Competence,"[(0, 25, 'SKILL')]"
+Business Acumen,"[(0, 15, 'SKILL')]"
+Project Management,"[(0, 18, 'SKILL')]"
+Risk Management,"[(0, 14, 'SKILL')]"
+Quality Assurance,"[(0, 18, 'SKILL')]"
+Conflict Management,"[(0, 18, 'SKILL')]"
+Change Management,"[(0, 16, 'SKILL')]"
+Decision-Making,"[(0, 15, 'SKILL')]"
+Financial Literacy,"[(0, 18, 'SKILL')]"
+Entrepreneurship,"[(0, 15, 'SKILL')]"
+Business Development,"[(0, 19, 'SKILL')]"
+Sales Skills,"[(0, 12, 'SKILL')]"
+Marketing,"[(0, 9, 'SKILL')]"
+Customer Relationship Management (CRM),"[(0, 31, 'SKILL')]"
+Strategic Planning,"[(0, 18, 'SKILL')]"
+Data Literacy,"[(0, 13, 'SKILL')]"
+Digital Literacy,"[(0, 15, 'SKILL')]"
+Information Literacy,"[(0, 19, 'SKILL')]"
+Research Skills,"[(0, 14, 'SKILL')]"
+Technical Writing,"[(0, 17, 'SKILL')]"
+Documentation,"[(0, 13, 'SKILL')]"
+Report Writing,"[(0, 14, 'SKILL')]"
+Blogging,"[(0, 8, 'SKILL')]"
+Public Relations,"[(0, 16, 'SKILL')]"
+Time Tracking,"[(0, 13, 'SKILL')]"
+Goal Setting,"[(0, 11, 'SKILL')]"
+Delegation,"[(0, 10, 'SKILL')]"
+Motivational Skills,"[(0, 17, 'SKILL')]"
+Cross-Functional Collaboration,"[(0, 27, 'SKILL')]"
+Stakeholder Management,"[(0, 22, 'SKILL')]"
+Feedback and Coaching,"[(0, 18, 'SKILL')]"
+Mentoring,"[(0, 9, 'SKILL')]"
+Knowledge Sharing,"[(0, 16, 'SKILL')]"
+Training and Development,"[(0, 23, 'SKILL')]"
+Conflict Resolution,"[(0, 18, 'SKILL')]"
+Facilitation Skills,"[(0, 18, 'SKILL')]"
+Decision Making Under Pressure,"[(0, 28, 'SKILL')]"
+Attention to Detail,"[(0, 19, 'SKILL')]"
+Project Coordination,"[(0, 19, 'SKILL')]"
+Crisis Management,"[(0, 16, 'SKILL')]"
+Strategic Thinking,"[(0, 17, 'SKILL')]"
+Systems Thinking,"[(0, 15, 'SKILL')]"
+Forecasting,"[(0, 12, 'SKILL')]"
+Trend Analysis,"[(0, 14, 'SKILL')]"
+Presentation Design,"[(0, 19, 'SKILL')]"
+Data Visualization,"[(0, 17, 'SKILL')]"
+Storytelling,"[(0, 12, 'SKILL')]"
+Cultural Intelligence,"[(0, 21, 'SKILL')]"
+Social Media Management,"[(0, 23, 'SKILL')]"
+Community Building,"[(0, 17, 'SKILL')]"
+Volunteerism,"[(0, 12, 'SKILL')]"
+Time Blocking,"[(0, 13, 'SKILL')]"
+Goal Setting,"[(0, 11, 'SKILL')]"
+Continuous Improvement,"[(0, 20, 'SKILL')]"
+Team Building,"[(0, 12, 'SKILL')]"
+Appreciative Inquiry,"[(0, 19, 'SKILL')]"
+User-Centered Design,"[(0, 21, 'SKILL')]"
+User Experience (UX) Design,"[(0, 24, 'SKILL')]"
+User Interface (UI) Design,"[(0, 24, 'SKILL')]"
+Human-Computer Interaction (HCI),"[(0, 31, 'SKILL')]"
+Design Thinking,"[(0, 15, 'SKILL')]"
+Agile Methodology,"[(0, 16, 'SKILL')]"
+Scrum,"[(0, 5, 'SKILL')]"
+Kanban,"[(0, 6, 'SKILL')]"
+Lean Thinking,"[(0, 12, 'SKILL')]"
+Lean Six Sigma,"[(0, 15, 'SKILL')]"
+Statistical Analysis,"[(0, 20, 'SKILL')]"
+Regression Analysis,"[(0, 18, 'SKILL')]"
+A/B Testing,"[(0, 10, 'SKILL')]"
+Hypothesis Testing,"[(0, 18, 'SKILL')]"
+Data Mining,"[(0, 10, 'SKILL')]"
+Predictive Analytics,"[(0, 20, 'SKILL')]"
+Descriptive Analytics,"[(0, 21, 'SKILL')]"
+Prescriptive Analytics,"[(0, 21, 'SKILL')]"
+Risk Analysis,"[(0, 12, 'SKILL')]"
+Critical Path Analysis,"[(0, 21, 'SKILL')]"
+SWOT Analysis,"[(0, 12, 'SKILL')]"
+Business Intelligence,"[(0, 20, 'SKILL')]"
+Competitive Analysis,"[(0, 19, 'SKILL')]"
+Market Research,"[(0, 13, 'SKILL')]"
+Lean Canvas,"[(0, 11, 'SKILL')]"
+Business Model Canvas,"[(0, 21, 'SKILL')]"
+Value Proposition Design,"[(0, 23, 'SKILL')]"
+Empathy Mapping,"[(0, 15, 'SKILL')]"
+Journey Mapping,"[(0, 15, 'SKILL')]"
+IntelliJ IDEA,"[(0, 13, 'SKILL')]"
+Eclipse,"[(0, 7, 'SKILL')]"
+NetBeans,"[(0, 8, 'SKILL')]"
+Visual Studio,"[(0, 14, 'SKILL')]"
+Atom,"[(0, 4, 'SKILL')]"
+Sublime Text,"[(0, 12, 'SKILL')]"
+Vim,"[(0, 3, 'SKILL')]"
+Emacs,"[(0, 5, 'SKILL')]"
+Notepad++,"[(0, 9, 'SKILL')]"
+Visual Studio Code,"[(0, 19, 'SKILL')]"
+Xcode,"[(0, 5, 'SKILL')]"
+Android Studio,"[(0, 14, 'SKILL')]"
+PyCharm,"[(0, 7, 'SKILL')]"
+Jupyter Notebooks,"[(0, 17, 'SKILL')]"
+RStudio,"[(0, 7, 'SKILL')]"
+MATLAB,"[(0, 6, 'SKILL')]"
+Anaconda,"[(0, 8, 'SKILL')]"
+Spyder,"[(0, 6, 'SKILL')]"
+Docker,"[(0, 6, 'SKILL')]"
+Kubernetes,"[(0, 11, 'SKILL')]"
+Vagrant,"[(0, 7, 'SKILL')]"
+VirtualBox,"[(0, 11, 'SKILL')]"
+VMware,"[(0, 6, 'SKILL')]"
+Wireshark,"[(0, 9, 'SKILL')]"
+Postman,"[(0, 7, 'SKILL')]"
+Swagger,"[(0, 7, 'SKILL')]"
+SoapUI,"[(0, 6, 'SKILL')]"
+Jenkins,"[(0, 7, 'SKILL')]"
+Travis CI,"[(0, 9, 'SKILL')]"
+GitLab CI/CD,"[(0, 12, 'SKILL')]"
+CircleCI,"[(0, 8, 'SKILL')]"
+SonarQube,"[(0, 9, 'SKILL')]"
+Selenium,"[(0, 8, 'SKILL')]"
+Jira,"[(0, 4, 'SKILL')]"
+Trello,"[(0, 6, 'SKILL')]"
+Asana,"[(0, 5, 'SKILL')]"
+Confluence,"[(0, 10, 'SKILL')]"
+Slack,"[(0, 5, 'SKILL')]"
+Mattermost,"[(0, 10, 'SKILL')]"
+Rocket.Chat,"[(0, 11, 'SKILL')]"
+Discord,"[(0, 7, 'SKILL')]"
+Zoom,"[(0, 4, 'SKILL')]"
+Microsoft Teams,"[(0, 15, 'SKILL')]"
+Webex,"[(0, 5, 'SKILL')]"
+Google Meet,"[(0, 11, 'SKILL')]"
+Figma,"[(0, 5, 'SKILL')]"
+Sketch,"[(0, 6, 'SKILL')]"
+Adobe XD,"[(0, 8, 'SKILL')]"
+Zeplin,"[(0, 6, 'SKILL')]"
+Blender,"[(0, 7, 'SKILL')]"
+Unity,"[(0, 5, 'SKILL')]"
+Unreal Engine,"[(0, 14, 'SKILL')]"
+Godot Engine,"[(0, 11, 'SKILL')]"
+AutoCAD,"[(0, 7, 'SKILL')]"
+SolidWorks,"[(0, 11, 'SKILL')]"
+CATIA,"[(0, 5, 'SKILL')]"
+Creo,"[(0, 4, 'SKILL')]"
+KiCad,"[(0, 5, 'SKILL')]"
+Altium Designer,"[(0, 15, 'SKILL')]"
+Eagle,"[(0, 5, 'SKILL')]"
+TensorFlow,"[(0, 10, 'SKILL')]"
+PyTorch,"[(0, 7, 'SKILL')]"
+Keras,"[(0, 5, 'SKILL')]"
+Scikit-learn,"[(0, 12, 'SKILL')]"
+Pandas,"[(0, 6, 'SKILL')]"
+NumPy,"[(0, 5, 'SKILL')]"
+Matplotlib,"[(0, 11, 'SKILL')]"
+Tableau,"[(0, 7, 'SKILL')]"
+Power BI,"[(0, 8, 'SKILL')]"
+QlikView,"[(0, 8, 'SKILL')]"
+SAS,"[(0, 3, 'SKILL')]"
+SPSS,"[(0, 4, 'SKILL')]"
+R,"[(0, 1, 'SKILL')]"
+Git,"[(0, 3, 'SKILL')]"
+Mercurial,"[(0, 9, 'SKILL')]"
+Subversion,"[(0, 10, 'SKILL')]"
+CVS,"[(0, 3, 'SKILL')]"
+Perforce,"[(0, 8, 'SKILL')]"
+IntelliJ IDEA,"[(0, 13, 'SKILL')]"
+Eclipse,"[(0, 7, 'SKILL')]"
+NetBeans,"[(0, 8, 'SKILL')]"
+Visual Studio,"[(0, 14, 'SKILL')]"
+Atom,"[(0, 4, 'SKILL')]"
+Sublime Text,"[(0, 12, 'SKILL')]"
+Vim,"[(0, 3, 'SKILL')]"
+Emacs,"[(0, 5, 'SKILL')]"
+Notepad++,"[(0, 9, 'SKILL')]"
+Visual Studio Code,"[(0, 19, 'SKILL')]"
+Xcode,"[(0, 5, 'SKILL')]"
+Android Studio,"[(0, 14, 'SKILL')]"
+PyCharm,"[(0, 7, 'SKILL')]"
+Jupyter Notebooks,"[(0, 17, 'SKILL')]"
+RStudio,"[(0, 7, 'SKILL')]"
+MATLAB,"[(0, 6, 'SKILL')]"
+Anaconda,"[(0, 8, 'SKILL')]"
+Spyder,"[(0, 6, 'SKILL')]"
+Docker,"[(0, 6, 'SKILL')]"
+Kubernetes,"[(0, 11, 'SKILL')]"
+Vagrant,"[(0, 7, 'SKILL')]"
+VirtualBox,"[(0, 11, 'SKILL')]"
+VMware,"[(0, 6, 'SKILL')]"
+Wireshark,"[(0, 9, 'SKILL')]"
+Postman,"[(0, 7, 'SKILL')]"
+Swagger,"[(0, 7, 'SKILL')]"
+Mercurial,"[(0, 9, 'SKILL')]"
+Subversion,"[(0, 10, 'SKILL')]"
+CVS,"[(0, 3, 'SKILL')]"
+Perforce,"[(0, 8, 'SKILL')]"
+AWS Lambda,"[(0, 9, 'SKILL')]"
+Apache NiFi,"[(0, 12, 'SKILL')]"
+Apache ZooKeeper,"[(0, 15, 'SKILL')]"
+Google Cloud Pub/Sub,"[(0, 19, 'SKILL')]"
+Firebase Cloud Messaging (FCM),"[(0, 27, 'SKILL')]"
+Azure Event Hubs,"[(0, 14, 'SKILL')]"
+Azure Logic Apps,"[(0, 15, 'SKILL')]"
+Azure Functions,"[(0, 14, 'SKILL')]"
+Machine Learning Operations (MLOps),"[(0, 27, 'SKILL')]"
+ModelOps,"[(0, 8, 'SKILL')]"
+TensorFlow Extended (TFX),"[(0, 23, 'SKILL')]"
+Kubeflow,"[(0, 8, 'SKILL')]"
+DataRobot,"[(0, 8, 'SKILL')]"
+MLflow,"[(0, 6, 'SKILL')]"
+SageMaker,"[(0, 9, 'SKILL')]"
+Amazon Comprehend,"[(0, 17, 'SKILL')]"
+Dialogflow,"[(0, 11, 'SKILL')]"
+Alexa Skills Kit (ASK),"[(0, 20, 'SKILL')]"
+Chatbot development,"[(0, 19, 'SKILL')]"
+Speech-to-text (STT) systems,"[(0, 25, 'SKILL')]"
+Computer-aided design (CAD),"[(0, 25, 'SKILL')]"
+Generative Design,"[(0, 16, 'SKILL')]"
+Augmented Reality (AR),"[(0, 21, 'SKILL')]"
+Virtual Reality (VR),"[(0, 16, 'SKILL')]"
+3D printing,"[(0, 10, 'SKILL')]"
+Computer vision,"[(0, 15, 'SKILL')]"
+Natural Language Generation (NLG),"[(0, 28, 'SKILL')]"
+Automated Speech Recognition (ASR),"[(0, 30, 'SKILL')]"
+Optical Character Recognition (OCR),"[(0, 32, 'SKILL')]"
+Robotic Process Automation (RPA),"[(0, 30, 'SKILL')]"
+Process Mining,"[(0, 14, 'SKILL')]"
+Quantum computing,"[(0, 17, 'SKILL')]"
+Quantum programming languages (Qiskit, Q#),"[(0, 36, 'SKILL')]"
+Quantum algorithms,"[(0, 18, 'SKILL')]"
+Quantum cryptography,"[(0, 20, 'SKILL')]"
+Quantum machine learning,"[(0, 24, 'SKILL')]"
+Server-Sent Events (SSE),"[(0, 22, 'SKILL')]"
+WebSockets,"[(0, 10, 'SKILL')]"
+WebRTC (Real-Time Communication),"[(0, 27, 'SKILL')]"
+Webhooks,"[(0, 8, 'SKILL')]"
+CORS (Cross-Origin Resource Sharing),"[(0, 4, 'SKILL')]"
+JSON Web Tokens (JWT),"[(0, 19, 'SKILL')]"
+OAuth (Open Authorization),"[(0, 17, 'SKILL')]"
+OAuth2.0 (Authorization framework),"[(0, 27, 'SKILL')]"
+OpenID Connect (OIDC),"[(0, 17, 'SKILL')]"
+WebAuthn (Web Authentication API),"[(0, 27, 'SKILL')]"
+Identity and Access Management (IAM),"[(0, 31, 'SKILL')]"
+RBAC (Role-Based Access Control),"[(0, 25, 'SKILL')]"
+ABAC (Attribute-Based Access Control),"[(0, 30, 'SKILL')]"
+CQRS (Command Query Responsibility Segregation),"[(0, 43, 'SKILL')]"
+Event Sourcing,"[(0, 14, 'SKILL')]"
+Micro Frontends,"[(0, 15, 'SKILL')]"
+Progressive Web Apps (PWAs),"[(0, 24, 'SKILL')]"
+Single Page Applications (SPAs),"[(0, 27, 'SKILL')]"
+WebAssembly (Wasm),"[(0, 22, 'SKILL')]"
+Web Components,"[(0, 14, 'SKILL')]"
+OpenAPI Specification,"[(0, 21, 'SKILL')]"
+gRPC-Web,"[(0, 8, 'SKILL')]"
+Wireshark (Network protocol analyzer),"[(0, 35, 'SKILL')]"
+Postman (API development and testing),"[(0, 29, 'SKILL')]"
+Swagger (API documentation),"[(0, 23, 'SKILL')]"
+SoapUI (API testing tool),"[(0, 7, 'SKILL')]"
+Jenkins (Continuous Integration/Continuous Deployment),"[(0, 7, 'SKILL')]"
+Travis CI (Continuous Integration),"[(0, 9, 'SKILL')]"
+GitLab CI/CD (Continuous Integration/Continuous Deployment),"[(0, 14, 'SKILL')]"
+CircleCI (Continuous Integration),"[(0, 9, 'SKILL')]"
+SonarQube (Code quality analysis),"[(0, 12, 'SKILL')]"
+Selenium (Web application testing),"[(0, 8, 'SKILL')]"
+Jira (Project management and issue tracking),"[(0, 4, 'SKILL')]"
+Trello (Project management),"[(0, 6, 'SKILL')]"
+Asana (Project management),"[(0, 5, 'SKILL')]"
+Confluence (Collaboration and documentation),"[(0, 10, 'SKILL')]"
+Slack (Team communication),"[(0, 5, 'SKILL')]"
+Mattermost (Open-source team communication),"[(0, 10, 'SKILL')]"
+Rocket.Chat (Open-source team communication),"[(0, 12, 'SKILL')]"
+Discord (Voice, video, and text communication),"[(0, 7, 'SKILL')]"
+Zoom (Video conferencing),"[(0, 4, 'SKILL')]"
+Microsoft Teams (Collaboration platform),"[(0, 15, 'SKILL')]"
+Webex (Video conferencing),"[(0, 5, 'SKILL')]"
+Google Meet (Video conferencing),"[(0, 12, 'SKILL')]"
+Figma,"[(0, 5, 'SKILL')]"
+Sketch,"[(0, 5, 'SKILL')]"
+Adobe XD,"[(0, 8, 'SKILL')]"
+Zeplin,"[(0, 6, 'SKILL')]"
+Blender,"[(0, 7, 'SKILL')]"
+Unity,"[(0, 5, 'SKILL')]"
+Unreal Engine,"[(0, 12, 'SKILL')]"
+Godot Engine,"[(0, 11, 'SKILL')]"
+AutoCAD,"[(0, 7, 'SKILL')]"
+SolidWorks,"[(0, 11, 'SKILL')]"
+CATIA,"[(0, 5, 'SKILL')]"
+Creo,"[(0, 4, 'SKILL')]"
+KiCad,"[(0, 5, 'SKILL')]"
+Altium Designer,"[(0, 14, 'SKILL')]"
+Eagle,"[(0, 5, 'SKILL')]"
+TensorFlow,"[(0, 10, 'SKILL')]"
+PyTorch,"[(0, 7, 'SKILL')]"
+Keras,"[(0, 5, 'SKILL')]"
+Scikit-learn,"[(0, 12, 'SKILL')]"
+Pandas,"[(0, 6, 'SKILL')]"
+NumPy,"[(0, 5, 'SKILL')]"
+Matplotlib,"[(0, 11, 'SKILL')]"
+Tableau,"[(0, 7, 'SKILL')]"
+Power BI,"[(0, 8, 'SKILL')]"
+QlikView,"[(0, 8, 'SKILL')]"
+SAS,"[(0, 3, 'SKILL')]"
+SPSS,"[(0, 4, 'SKILL')]"
+R,"[(0, 1, 'SKILL')]"
+Git,"[(0, 2, 'SKILL')]"
+Subversion,"[(0, 10, 'SKILL')]"
+CVS,"[(0, 3, 'SKILL')]"
+Perforce,"[(0, 8, 'SKILL')]"
+IntelliJ IDEA,"[(0, 13, 'SKILL')]"
+Eclipse,"[(0, 7, 'SKILL')]"
+NetBeans,"[(0, 8, 'SKILL')]"
+Visual Studio,"[(0, 14, 'SKILL')]"
+Atom,"[(0, 3, 'SKILL')]"
+Sublime Text,"[(0, 12, 'SKILL')]"
+Vim,"[(0, 3, 'SKILL')]"
+Emacs,"[(0, 5, 'SKILL')]"
+Notepad++,"[(0, 9, 'SKILL')]"
+Unit Testing,"[(0, 10, 'SKILL')]"
+Integration Testing,"[(0, 18, 'SKILL')]"
+Test-Driven Development (TDD),"[(0, 26, 'SKILL')]"
+RESTful API Design,"[(0, 17, 'SKILL')]"
+GraphQL,"[(0, 6, 'SKILL')]"
+Microservices Architecture,"[(0, 24, 'SKILL')]"
+Serverless Computing,"[(0, 21, 'SKILL')]"
+Progressive Web Apps (PWAs),"[(0, 23, 'SKILL')]"
+Cloud-Native Development,"[(0, 24, 'SKILL')]"
+WebSockets,"[(0, 10, 'SKILL')]"
+DevOps Practices,"[(0, 15, 'SKILL')]"
+Continuous Integration/Continuous Deployment (CI/CD),"[(0, 49, 'SKILL')]"
+Infrastructure as Code (IaC),"[(0, 26, 'SKILL')]"
+Container Orchestration,"[(0, 24, 'SKILL')]"
+Service Mesh,"[(0, 12, 'SKILL')]"
+Observability,"[(0, 13, 'SKILL')]"
+Distributed Systems Design,"[(0, 24, 'SKILL')]"
+Load Balancing,"[(0, 14, 'SKILL')]"
+Circuit Breaker Patterns,"[(0, 22, 'SKILL')]"
+Agile Methodology,"[(0, 17, 'SKILL')]"
+Scrum,"[(0, 5, 'SKILL')]"
+Kanban,"[(0, 6, 'SKILL')]"
+Design Patterns,"[(0, 15, 'SKILL')]"
+Refactoring,"[(0, 11, 'SKILL')]"
+Code Review,"[(0, 9, 'SKILL')]"
+Pair Programming,"[(0, 15, 'SKILL')]"
+Cross-Platform Development,"[(0, 23, 'SKILL')]"
+Responsive Web Design,"[(0, 20, 'SKILL')]"
+Mobile-First Development,"[(0, 21, 'SKILL')]"
+Accessibility Standards,"[(0, 20, 'SKILL')]"
+Performance Optimization,"[(0, 21, 'SKILL')]"
+Code Profiling,"[(0, 12, 'SKILL')]"
+Memory Management,"[(0, 15, 'SKILL')]"
+Code Versioning (e.g., Git),"[(0, 22, 'SKILL')]"
+Design Thinking,"[(0, 15, 'SKILL')]"
+Behavioral Driven Development (BDD),"[(0, 30, 'SKILL')]"
+Domain-Driven Design (DDD),"[(0, 26, 'SKILL')]"
+Event-Driven Architecture,"[(0, 24, 'SKILL')]"
+Continuous Learning and Adaptability,"[(0, 29, 'SKILL')]"
+Data Scientist:,"[(0, 14, 'SKILL')]"
+Data Exploration,"[(0, 15, 'SKILL')]"
+Feature Engineering,"[(0, 18, 'SKILL')]"
+Model Evaluation,"[(0, 15, 'SKILL')]"
+Hypothesis Testing,"[(0, 18, 'SKILL')]"
+A/B Testing,"[(0, 9, 'SKILL')]"
+Bayesian Statistics,"[(0, 19, 'SKILL')]"
+Time Series Analysis,"[(0, 19, 'SKILL')]"
+Natural Language Processing (NLP),"[(0, 30, 'SKILL')]"
+Sentiment Analysis,"[(0, 18, 'SKILL')]"
+Predictive Modeling,"[(0, 18, 'SKILL')]"
+Machine Learning Algorithms,"[(0, 24, 'SKILL')]"
+Neural Networks,"[(0, 16, 'SKILL')]"
+Deep Learning,"[(0, 12, 'SKILL')]"
+Reinforcement Learning,"[(0, 22, 'SKILL')]"
+Ensemble Learning,"[(0, 16, 'SKILL')]"
+Cross-Validation,"[(0, 16, 'SKILL')]"
+Hyperparameter Tuning,"[(0, 20, 'SKILL')]"
+Dimensionality Reduction,"[(0, 21, 'SKILL')]"
+Clustering Techniques,"[(0, 21, 'SKILL')]"
+Data Wrangling,"[(0, 14, 'SKILL')]"
+Data Cleaning,"[(0, 13, 'SKILL')]"
+Data Visualization (e.g., Seaborn, Plotly),"[(0, 37, 'SKILL')]"
+Dashboarding Tools (e.g., Tableau, Power BI),"[(0, 38, 'SKILL')]"
+Feature Scaling,"[(0, 14, 'SKILL')]"
+SQL,"[(0, 3, 'SKILL')]"
+NoSQL Databases,"[(0, 17, 'SKILL')]"
+Big Data Technologies (e.g., Hadoop, Spark),"[(0, 31, 'SKILL')]"
+Data Governance,"[(0, 14, 'SKILL')]"
+Ethical Data Handling,"[(0, 20, 'SKILL')]"
+Data Privacy Regulations,"[(0, 24, 'SKILL')]"
+Threat Intelligence,"[(0, 18, 'SKILL')]"
+Security Incident Response,"[(0, 23, 'SKILL')]"
+Penetration Testing,"[(0, 18, 'SKILL')]"
+Vulnerability Assessment,"[(0, 22, 'SKILL')]"
+Security Information and Event Management (SIEM),"[(0, 41, 'SKILL')]"
+Firewall Configuration,"[(0, 21, 'SKILL')]"
+Intrusion Detection Systems (IDS),"[(0, 29, 'SKILL')]"
+Intrusion Prevention Systems (IPS),"[(0, 29, 'SKILL')]"
+Security Auditing,"[(0, 16, 'SKILL')]"
+Network Security,"[(0, 15, 'SKILL')]"
+Endpoint Security,"[(0, 16, 'SKILL')]"
+Identity and Access Management (IAM),"[(0, 30, 'SKILL')]"
+Encryption Techniques,"[(0, 19, 'SKILL')]"
+Secure Coding Practices,"[(0, 21, 'SKILL')]"
+Application Security,"[(0, 19, 'SKILL')]"
+Cloud Security,"[(0, 13, 'SKILL')]"
+Incident Handling,"[(0, 16, 'SKILL')]"
+Risk Management,"[(0, 14, 'SKILL')]"
+Security Policies and Compliance,"[(0, 29, 'SKILL')]"
+Security Awareness Training,"[(0, 24, 'SKILL')]"
+Cloud Service Providers (e.g., AWS, Azure, GCP),"[(0, 37, 'SKILL')]"
+Cloud Architecture Design,"[(0, 24, 'SKILL')]"
+Hybrid Cloud Solutions,"[(0, 21, 'SKILL')]"
+Multi-Cloud Strategies,"[(0, 21, 'SKILL')]"
+Cloud Security,"[(0, 13, 'SKILL')]"
+Identity and Access Management (IAM) in Cloud,"[(0, 38, 'SKILL')]"
+Serverless Architectures,"[(0, 23, 'SKILL')]"
+Cloud-Native Development,"[(0, 24, 'SKILL')]"
+Microservices Deployment,"[(0, 22, 'SKILL')]"
+DevOps in Cloud Environments,"[(0, 29, 'SKILL')]"
+Cloud Cost Management,"[(0, 20, 'SKILL')]"
+Disaster Recovery Planning,"[(0, 25, 'SKILL')]"
+Cloud Networking,"[(0, 14, 'SKILL')]"
+Containerization,"[(0, 16, 'SKILL')]"
+Orchestration,"[(0, 13, 'SKILL')]"
+Kubernetes,"[(0, 9, 'SKILL')]"
+Infrastructure as Code ,"[(0, 23, 'SKILL')]"
+Serverless Computing,"[(0, 21, 'SKILL')]"
+API Gateway Configuration,"[(0, 24, 'SKILL')]"
+Cloud Monitoring and Optimization,"[(0, 30, 'SKILL')]"
+Cloud Governance,"[(0, 14, 'SKILL')]"
+Routing Protocols,"[(0, 17, 'SKILL')]"
+Switching Protocols,"[(0, 19, 'SKILL')]"
+Network Security,"[(0, 15, 'SKILL')]"
+Firewalls and Proxy Servers,"[(0, 26, 'SKILL')]"
+Virtual Private Networks,"[(0, 24, 'SKILL')]"
+VPN,"[(0, 3, 'SKILL')]"
+Wireless Networking,"[(0, 19, 'SKILL')]"
+Load Balancing,"[(0, 14, 'SKILL')]"
+Network Monitoring Tools,"[(0, 24, 'SKILL')]"
+Quality of Service (QoS),"[(0, 20, 'SKILL')]"
+IP Addressing and Subnetting,"[(0, 27, 'SKILL')]"
+Network Troubleshooting,"[(0, 23, 'SKILL')]"
+Network Design,"[(0, 14, 'SKILL')]"
+Cloud Networking,"[(0, 15, 'SKILL')]"
+Software-Defined Networking (SDN),"[(0, 31, 'SKILL')]"
+Network Automation,"[(0, 19, 'SKILL')]"
+Network Configuration Management,"[(0, 28, 'SKILL')]"
+Voice over IP (VoIP),"[(0, 19, 'SKILL')]"
+Network Protocols (e.g., TCP/IP, UDP),"[(0, 37, 'SKILL')]"
+Intrusion Detection Systems (IDS),"[(0, 32, 'SKILL')]"
+Network Capacity Planning,"[(0, 24, 'SKILL')]"
+User Research,"[(0, 12, 'SKILL')]"
+Wireframing,"[(0, 11, 'SKILL')]"
+Prototyping,"[(0, 11, 'SKILL')]"
+User Persona Creation,"[(0, 21, 'SKILL')]"
+Information Architecture,"[(0, 23, 'SKILL')]"
+Interaction Design,"[(0, 18, 'SKILL')]"
+Visual Design,"[(0, 13, 'SKILL')]"
+Responsive Design Principles,"[(0, 26, 'SKILL')]"
+Mobile App Design,"[(0, 17, 'SKILL')]"
+Usability Testing,"[(0, 17, 'SKILL')]"
+User-Centered Design (UCD),"[(0, 25, 'SKILL')]"
+Design Thinking,"[(0, 14, 'SKILL')]"
+Design Systems,"[(0, 15, 'SKILL')]"
+Sketching and Illustration,"[(0, 24, 'SKILL')]"
+Motion Design,"[(0, 13, 'SKILL')]"
+Color Theory,"[(0, 12, 'SKILL')]"
+Typography,"[(0, 10, 'SKILL')]"
+A/B Testing,"[(0, 10, 'SKILL')]"
+Figma or Sketch,"[(0, 14, 'SKILL')]"
+Adobe Creative Suite,"[(0, 20, 'SKILL')]"
+Mosyle MDM,"[(0, 11, 'SKILL')]"
+Google Admin Console,"[(0, 20, 'SKILL')]"
+OneLogin SAML,"[(0, 13, 'SKILL')]"
+Microsoft Power Automate,"[(0, 23, 'SKILL')]"
+Microsoft SharePoint,"[(0, 18, 'SKILL')]"
+CAD modeling,"[(0, 11, 'SKILL')]"
+Autodesk Fusion 360,"[(0, 19, 'SKILL')]"
+Arduino,"[(0, 6, 'SKILL')]"
+OS,"[(0, 1, 'SKILL')]"
+GUI,"[(0, 2, 'SKILL')]"
