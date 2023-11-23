@@ -28,13 +28,14 @@ def process_recruiters_mode():
             text = extract_text_from_pdf(file)
             doc = nlp(text)  # Convert text to a SpaCy doc object
             skills_found = extract_skills(doc, required_skills)
-            display_skills_status(file.name, required_skills, skills_found)
+            display_candidate_info(file.name, required_skills, skills_found)
+
             all_skills_found.update(skills_found)
 
             # Call csv_skills with SpaCy doc object
             skills_from_csv = csv_skills(doc)
-            st.write(f"Skills from CSV found in {file.name}: {', '.join(skills_from_csv)}")
-            
+            display_skills_from_csv(file.name, skills_from_csv)
+
     # Filter overall skills to show only skills found in uploaded resumes
     overall_skills_filtered = all_skills_found.intersection(parse_all_skills())
 
@@ -104,9 +105,11 @@ def parse_all_skills():
     
     return skills_list
 
-# Function to display skills status in UI
-def display_skills_status(file_name, required_skills, skills_found):
-    st.write(f"**Skills found in {file_name}:**")
+# Function to display candidate information
+def display_candidate_info(file_name, required_skills, skills_found):
+    st.write("-" * 30)
+    st.write(f"**Candidate Name:** {file_name}")
+    st.write("**Skills found or not section:**")
     for skill in required_skills:
         if skill in skills_found:
             st.write(f"- {skill}: Found")
@@ -115,11 +118,14 @@ def display_skills_status(file_name, required_skills, skills_found):
     
     # Display all parsed skills found in the resume
     parsed_skills = sorted(list(skills_found))
-    st.write("\n**All Parsed Skills:**")
+    st.write("\n**All Skills from resume:**")
     for parsed_skill in parsed_skills:
         st.write(f"- {parsed_skill}")
-    
-    st.markdown("---")
+    st.write("-" * 30)
+
+# Function to display skills from CSV
+def display_skills_from_csv(file_name, skills_from_csv):
+    st.write(f"Skills from CSV found in {file_name}: {', '.join(skills_from_csv)}")
 
 # Function to display overall skills
 def display_overall_skills(overall_skills):
