@@ -80,7 +80,10 @@ def extract_skills(doc):
     skills = set()
     for ent in nlp_skills(doc.text).ents:
         if ent.label_ == 'SKILL':
-            skills.add(ent.text)
+            # Filter out non-alphabetic characters and numbers
+            skill_text = ''.join(filter(str.isalpha, ent.text))
+            if skill_text:
+                skills.add(skill_text)
     return skills
 
 # --------------------------------------------------------------------------------
