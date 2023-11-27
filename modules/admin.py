@@ -17,7 +17,6 @@ def process_admin_mode():
             # Display feedback data
             st.subheader("Feedback Data")
             # Assuming feedback_data is accessible globally or imported
-            st.write(feedback_data)
         else:
             st.error("Authentication failed. Please try again.")
 
