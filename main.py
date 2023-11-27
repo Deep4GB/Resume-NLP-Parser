@@ -10,7 +10,7 @@ def main():
 
     # Sidebar
     st.sidebar.title("Navigation")
-    app_mode = st.sidebar.selectbox("Choose an option", ["Users", "Recruiters", "Admin", "Feedback"])
+    app_mode = st.sidebar.selectbox("Choose an option", ["Users", "Recruiters", "Feedback", "Admin"])
 
     if app_mode == "Users":
         process_user_mode()

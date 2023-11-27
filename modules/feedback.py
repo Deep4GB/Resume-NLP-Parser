@@ -1,9 +1,5 @@
-# feedback.py
 import streamlit as st
-import pandas as pd
-
-# Assuming feedback_data is accessible globally or imported
-feedback_data = pd.DataFrame(columns=['User Name', 'Feedback', 'Timestamp'])
+from datetime import datetime
 
 def process_feedback_mode():
     st.title("Feedback Section")
@@ -13,5 +9,13 @@ def process_feedback_mode():
     user_name = st.text_input("Your Name:")
     feedback = st.text_area("Provide feedback on the resume parser:", height=100)
     if st.button("Submit Feedback"):
-        feedback_data.loc[len(feedback_data)] = [user_name, feedback, pd.to_datetime("now")]
+        add_feedback(user_name, feedback)
         st.success("Feedback submitted successfully!")
+
+def add_feedback(user_name, feedback):
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    with open('data/feedback_data.csv', 'a') as file:
+        file.write(f"User Name: {user_name}\n")
+        file.write(f"Feedback: {feedback}\n")
+        file.write(f"Timestamp: {timestamp}\n")
+        file.write("-" * 50 + "\n")
