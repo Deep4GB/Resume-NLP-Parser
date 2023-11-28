@@ -1,61 +1,95 @@
-# Resume NLP Parser
+<center>
+
+# Resume Parser Using NLP
+
+</center>
+
+## Table of Contents
+- [Overview](#overview)
+- [Key Features](#key-features)
+- [Technologies Used](#technologies-used)
+- [How to Run the Application](#how-to-run-the-application)
+- [Functionalities](#functionalities)
+  - [User](#user)
+  - [Recruiters](#recruiters)
+  - [Feedback](#feedback)
+  - [Admin](#admin)
+- [Future Enhancements](#future-enhancements)
+- [Team](#team)
 
 ## Overview
 
-The **Resume NLP Parser** is a project that leverages Natural Language Processing (NLP) techniques to extract and analyze information from resumes. This tool streamlines the process of reviewing job applicants' resumes, extracting relevant data, and enabling data-driven decisions in recruitment.
+The **Resume NLP Parser** revolutionizes the recruitment process by employing sophisticated Natural Language Processing (NLP) techniques. This tool efficiently extracts, analyzes, and visualizes data from resumes, enabling data-driven decision-making in hiring. Tailored for both candidates and recruiters, it enhances the application experience by parsing resumes comprehensively and offering powerful insights.
 
 ## Key Features
 
-- **Resume Parsing**: Parses resumes in various formats (PDF, Word documents, or plain text), extracting details such as name, contact information, skills, work experience, and education.
+- **Comprehensive Resume Parsing**: Extracts detailed information including contact details, skills, work experience, and educational background from resumes in PDF formats.
 
-- **NLP Analysis**: Utilizes Natural Language Processing techniques to analyze the text within resumes, identifying keywords, phrases, and patterns to assess a candidate's qualifications.
+- **Advanced NLP Analysis**: Utilizes leading-edge NLP libraries such as NLTK and spaCy to delve into resume text, identifying keywords, phrases, and patterns to evaluate candidates' qualifications comprehensively.
 
-- **Data Visualization**: Presents parsed data through interactive and informative visualizations, facilitating recruiters in evaluating applicants.
+- **Intuitive Data Visualization**: Presents parsed data through interactive visualizations, empowering recruiters with efficient insights into applicants' profiles.
 
-- **Search and Filtering**: Provides search and filtering capabilities, enabling recruiters to quickly find specific candidate information.
+- **Robust Search and Filtering**: Offers powerful search and filtering functionalities, enabling swift access to specific candidate information.
 
 ## Technologies Used
 
-The project is developed using the following technologies and tools:
+The project leverages the following technologies and tools:
 
-- **Python**: The core programming language used for NLP and data analysis.
-
-- **NLP Libraries**: Utilizes NLP libraries and tools like NLTK (Natural Language Toolkit) and spaCy for text analysis.
-
-- **Web Interface**: Features a web-based user interface developed using Streamlit.
-
-- **Data Visualization**: Utilizes libraries such as Matplotlib and Plotly for creating visualizations.
+- **Python**: Primary programming language for NLP, data analysis, and backend functionalities.
+- **NLP Libraries**: Utilizes NLTK and spaCy for text analysis, named entity recognition (NER), and text parsing.
+- **Web Interface**: Employs Streamlit to create a user-friendly web-based interface for seamless user interaction.
+- **Data Visualization**: Utilizes Matplotlib and Plotly for generating informative and interactive visualizations.
+- **Database Management**: Utilizes SQLite for efficiently managing and querying resume data.
+- **Model Training**: Incorporates spaCy's NER pipeline for training models on customized data for skill extraction.
 
 ## How to Run the Application
 
 To run the Resume NLP Parser:
 
 1. Clone this repository to your local machine.
-
-2. Set up the necessary Python environment with required libraries. Install the required dependencies listed in `requirements.txt` using `pip`.
-
-3. Run the following command in the terminal:
+    ``` bash
+    gh repo clone Deep4GB/Resume-NLP-Parser
+    ```
+2. Set up a Python environment with necessary dependencies listed in `requirements.txt`.
+    ``` bash
+    pip install -r requirements.txt
+    ```
+3. Run the application using Streamlit:
     ```bash
     streamlit run main.py
     ```
+4. Upload resumes and explore the parsed data using the application's functionalities.
 
-4. Upload resumes.
+## Functionalities
 
-5. Utilize the provided search and filtering functionalities to explore the parsed data.
+### User
+
+The User section allows individuals to upload their resumes. The system then extracts and displays parsed information, showcasing extracted details such as skills, work experience, education, and contact information.
+
+### Recruiters
+
+Recruiters can upload multiple resumes and specify desired skills. The system performs skill-based searching across the resumes, presenting the findings in a structured format for better evaluation.
+
+### Feedback
+
+This section enables users to provide feedback, suggestions, or improvements for the system's enhancement. Users can share their thoughts on improving parsing accuracy, user interface, or additional functionalities.
+
+### Admin
+
+Admins have privileged access, requiring authentication to access this section. They can review uploaded resumes, manage feedback received from users, and download uploaded resumes for further analysis or archiving.
 
 ## Future Enhancements
 
-Future enhancements for this project may include:
+In the pipeline for this project are several enhancements:
 
-- **Machine Learning**: Integration of machine learning algorithms to improve resume analysis and categorization.
+- **Machine Learning Integration**: Integrate machine learning algorithms to enhance resume analysis and categorization.
+- **Customization Features**: Offer customization options for tailoring parsing algorithms to specific job roles or industries.
+- **Database Integration and Management**: Implement a more robust database system for long-term storage and efficient data retrieval.
 
-- **Customization**: Allowing users to customize the parser for specific job roles or industries.
+## Team
 
-- **Database Integration**: Storing and managing parsed resume data in a database for long-term analysis and tracking.
-
-## Contributors
-
-- **Darsh Patel**
-- **Dev Patel**
+- **Darsh Patel**: [GitHub Profile](https://github.com/darsh8692)
+- **Dev Patel**: [GitHub Profile](https://github.com/Devv64bit)
 - **Deep Patel**: [GitHub Profile](https://github.com/Deep4GB)
-- **Dravya Patel**
+- **Dravya Patel**: [GitHub Profile](https://github.com/dravyaaa)
+
