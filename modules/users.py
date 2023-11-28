@@ -16,7 +16,7 @@ def process_user_mode():
         st.write(f"First Name: {resume_info['first_name']}")
         st.write(f"Last Name: {resume_info['last_name']}")
         st.write(f"Email: {resume_info['email']}")
-        
+
         # Fix the function call for extracting the phone number
         contact_number = extract_contact_number_from_resume(pdf_text)
         st.write(f"Phone Number:  +{contact_number}")
@@ -31,7 +31,6 @@ def process_user_mode():
         st.markdown('<hr>', unsafe_allow_html=True)
         st.header("Skills:")
         show_colored_skills(resume_info['skills'])
-
 
         st.markdown('<hr>', unsafe_allow_html=True)
         st.header("Experience:")
