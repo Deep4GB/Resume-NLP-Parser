@@ -1,12 +1,44 @@
 import streamlit as st
-from resume_parser import extract_resume_info_from_pdf, extract_resume_info, calculate_resume_score, extract_skills, show_colored_skills, extract_experience, suggest_skills_for_job, extract_contact_number_from_resume, extract_education_from_resume
+import sqlite3
+from resume_parser import extract_resume_info_from_pdf, extract_contact_number_from_resume, extract_education_from_resume, \
+    extract_experience, suggest_skills_for_job, show_colored_skills, calculate_resume_score, extract_resume_info
+
+# Function to create a table for PDFs in SQLite database if it doesn't exist
+def create_table():
+    conn = sqlite3.connect('data/user_pdfs.db')
+    cursor = conn.cursor()
+    cursor.execute('''
+        CREATE TABLE IF NOT EXISTS user_uploaded_pdfs (
+            id INTEGER PRIMARY KEY,
+            name TEXT NOT NULL,
+            data BLOB NOT NULL
+        )
+    ''')
+    conn.commit()
+    conn.close()
+
+# Function to insert PDF into the SQLite database
+def insert_pdf(name, data):
+    conn = sqlite3.connect('data/user_pdfs.db')
+    cursor = conn.cursor()
+    cursor.execute('INSERT INTO user_uploaded_pdfs (name, data) VALUES (?, ?)', (name, data))
+    conn.commit()
+    conn.close()
 
 def process_user_mode():
+    create_table()  # Create table if it doesn't exist
+
     st.title("Resume Parser using NLP")
     uploaded_file = st.file_uploader("Upload a PDF resume", type="pdf")
 
     if uploaded_file:
         st.write("File uploaded successfully!")
+
+        pdf_name = uploaded_file.name
+        pdf_data = uploaded_file.getvalue()
+
+        # Insert the uploaded PDF into the database
+        insert_pdf(pdf_name, pdf_data)
 
         pdf_text = extract_resume_info_from_pdf(uploaded_file)
         resume_info = extract_resume_info(pdf_text)
@@ -59,3 +91,6 @@ def process_user_mode():
         desired_job = st.text_input("Enter the job you are looking for:")
         suggested_skills = suggest_skills_for_job(desired_job)
         st.write(suggested_skills)
+
+if __name__ == '__main__':
+    process_user_mode()

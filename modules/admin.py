@@ -1,22 +1,9 @@
-import pandas as pd
-import streamlit as st
+import base64
 import sqlite3
-
-# Function to create a database table if it doesn't exist
-def create_resume_table():
-    conn = sqlite3.connect('resume_database.db')
-    c = conn.cursor()
-    c.execute('''
-              CREATE TABLE IF NOT EXISTS resumes (
-                  id INTEGER PRIMARY KEY,
-                  file_name TEXT,
-                  file_path TEXT
-              )''')
-    conn.commit()
-    conn.close()
+import streamlit as st
+import pandas as pd
 
 def process_admin_mode():
-    create_resume_table()
     st.title("Admin Panel")
     st.subheader("Authentication Required")
 
@@ -27,12 +14,14 @@ def process_admin_mode():
         if authenticate_admin(username, password):
             st.success("Authentication successful!")
 
+            # Display uploaded PDFs in a table with download links and name fields
+            display_uploaded_pdfs()
+
+            st.markdown('---')
+            
             # Display feedback data
-            st.subheader("Feedback Data")
             display_feedback_data()
 
-            # Display uploaded resumes
-            display_uploaded_resumes()
         else:
             st.error("Authentication failed. Please try again.")
 
@@ -47,28 +36,64 @@ def display_feedback_data():
         feedback_data = pd.read_csv('data/feedback_data.csv')
         latest_feedback = feedback_data.tail(10)  # Fetching latest 10 feedbacks
 
+        st.subheader("Latest Feedbacks")
         st.write(latest_feedback)  # Display latest 10 feedbacks
 
         if st.button("View More Feedbacks"):
             st.write(feedback_data)  # Display all feedbacks if requested by admin
+
     except FileNotFoundError:
         st.warning("No feedback data available.")
 
-def display_uploaded_resumes():
-    conn = sqlite3.connect('resume_database.db')
-    c = conn.cursor()
-    c.execute("SELECT * FROM resumes")
-    resumes = c.fetchall()
-    conn.close()
+def get_uploaded_pdfs():
+    try:
+        conn = sqlite3.connect('data/user_pdfs.db')
+        cursor = conn.cursor()
+        cursor.execute("SELECT id, name FROM user_uploaded_pdfs")
+        uploaded_pdfs = cursor.fetchall()
+        conn.close()
+        return uploaded_pdfs
 
-    st.subheader("Uploaded Resumes:")
-    for resume in resumes:
-        st.write(resume[1])  # Display file names
-        download_button = st.button(f"Download {resume[1]}", key=f"download_button_{resume[0]}")
-        if download_button:
-            with open(resume[2], 'rb') as file:
-                file_contents = file.read()
-            st.download_button(label='Download Resume', data=file_contents, file_name=resume[1])
+    except sqlite3.Error as e:
+        st.error(f"Error fetching uploaded PDFs: {e}")
+        return []
+
+def display_uploaded_pdfs():
+    uploaded_pdfs = get_uploaded_pdfs()
+
+    if uploaded_pdfs:
+        st.subheader("Uploaded Resumes")
+
+        pdf_data_list = []
+        for pdf_id, pdf_name in uploaded_pdfs:
+            pdf_data = get_pdf_data(pdf_id)
+            if pdf_data:
+                pdf_b64 = base64.b64encode(pdf_data[1]).decode('utf-8')
+                href = f'<a href="data:application/pdf;base64,{pdf_b64}" download="{pdf_name}">Download</a>'
+                pdf_data_list.append({"ID": pdf_id, "Name": pdf_name, "Download (Resume)": href})
+            else:
+                st.warning(f"Error retrieving PDF data for ID: {pdf_id}")
+
+        # Create DataFrame from the list of dictionaries
+        pdf_table = pd.DataFrame(pdf_data_list)
+        # Display the table with HTML links using markdown
+        st.markdown(pdf_table.to_html(escape=False), unsafe_allow_html=True)
+
+    else:
+        st.warning("No uploaded PDFs available.")
+
+def get_pdf_data(pdf_id):
+    try:
+        conn = sqlite3.connect('data/user_pdfs.db')
+        cursor = conn.cursor()
+        cursor.execute("SELECT name, data FROM user_uploaded_pdfs WHERE id=?", (pdf_id,))
+        pdf_data = cursor.fetchone()
+        conn.close()
+        return pdf_data
+
+    except sqlite3.Error as e:
+        st.error(f"Error fetching PDF data: {e}")
+        return None
 
 if __name__ == "__main__":
     process_admin_mode()
