@@ -46,9 +46,10 @@ The project leverages the following technologies and tools:
 
 To run the Resume NLP Parser:
 
-1. Clone this repository to your local machine.
+1. Clone this repository to your local machine and ``cd`` into the project directory.
     ``` bash
-    gh repo clone Deep4GB/Resume-NLP-Parser
+    git@github.com:Deep4GB/Resume-NLP-Parser.git
+    cd Resume-NLP-Parser
     ```
 2. Set up a Python environment with necessary dependencies listed in `requirements.txt`.
     ``` bash
