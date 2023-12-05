@@ -211,12 +211,15 @@ def extract_resume_info(doc):
 
 
 def suggest_skills_for_job(desired_job):
-    job_skills_mapping = {
-        'software engineer': ['Python', 'Java', 'JavaScript', 'React', 'Django', 'Git'],
-        'data scientist': ['Python', 'R', 'Machine Learning', 'Statistics', 'SQL'],
-        'graphic designer': ['Adobe Photoshop', 'Illustrator', 'UI/UX Design', 'Typography'],
-    }
-
+    job_skills_mapping = {}
+    
+    with open('data/sugestedSkills.csv', newline='') as csvfile:
+        reader = csv.reader(csvfile)
+        for row in reader:
+            job_title = row[0].lower()
+            skills = row[1:]
+            job_skills_mapping[job_title] = skills
+    
     desired_job_lower = desired_job.lower()
     if desired_job_lower in job_skills_mapping:
         suggested_skills = job_skills_mapping[desired_job_lower]
