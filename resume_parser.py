@@ -53,24 +53,17 @@ def extract_contact_number_from_resume(doc):
 
 # --------------------------------Extract Education-------------------------------
 def extract_education_from_resume(doc):
-    education = []
-    degrees_universities = []
-    pattern = r"(?i)(?:Bsc|\bB\.\w+|\bM\.\w+|\bPh\.D\.\w+|\bBachelor(?:'s)?|\bMaster(?:'s)?|\bPh\.D)\s(?:\w+\s)*(?:\w+ University|\w+ College|\w+ Institute)"
+    universities = []
 
-    # Additional patterns for different education scenarios
-    additional_patterns = [
-        r"(?:Enrolled at|\bEnrollment\b|\bCurrently enrolled|\bGraduated|\bCompleted|\bAttended\b)",
-        r"(?:Expected graduation|\bGraduating in\b|\bGraduation date\b|\bExpected completion)",
-    ]
+    # Process the document with spaCy
+    doc = nlp(doc)
 
-    additional_pattern = '|'.join(additional_patterns)
-    final_pattern = f"(?i){pattern}|{additional_pattern}"
+    # Iterate through entities and check for organizations (universities)
+    for entity in doc.ents:
+        if entity.label_ == "ORG" and ("university" in entity.text.lower() or "college" in entity.text.lower() or "institute" in entity.text.lower()):
+            universities.append(entity.text)
 
-    matches = re.finditer(final_pattern, doc.text)
-    for match in matches:
-        degree_university = match.group().strip()
-        degrees_universities.append(degree_university)
-    return degrees_universities
+    return universities
 # --------------------------------------------------------------------------------
 
 # ----------------------------------Extract Skills--------------------------------
@@ -132,11 +125,15 @@ def extract_major(doc):
 def extract_experience(doc):
     verbs = [token.text for token in doc if token.pos_ == 'VERB']
 
-    if any(keyword in verbs for keyword in ['lead', 'manage', 'direct']):
+    senior_keywords = ['lead', 'manage', 'direct', 'oversee', 'supervise', 'orchestrate', 'govern']
+    mid_senior_keywords = ['develop', 'design', 'analyze', 'implement', 'coordinate', 'execute', 'strategize']
+    mid_junior_keywords = ['assist', 'support', 'collaborate', 'participate', 'aid', 'facilitate', 'contribute']
+    
+    if any(keyword in verbs for keyword in senior_keywords):
         level_of_experience = "Senior"
-    elif any(keyword in verbs for keyword in ['develop', 'design', 'analyze']):
+    elif any(keyword in verbs for keyword in mid_senior_keywords):
         level_of_experience = "Mid-Senior"
-    elif any(keyword in verbs for keyword in ['assist', 'support', 'collaborate']):
+    elif any(keyword in verbs for keyword in mid_junior_keywords):
         level_of_experience = "Mid-Junior"
     else:
         level_of_experience = "Entry Level"
@@ -147,6 +144,7 @@ def extract_experience(doc):
         'level_of_experience': level_of_experience,
         'suggested_position': suggested_position
     }
+
 # --------------------------------------------------------------------------------
 
 
